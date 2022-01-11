@@ -1,0 +1,9 @@
+Course Name: Introduction to Robotics
+Course ID: 465
+Max Student Capacity: 2
+Students Registered: 2
+Course Name: Neural Network
+Course ID: 1
+Max Student Capacity: 1
+Students Registered: 1
+

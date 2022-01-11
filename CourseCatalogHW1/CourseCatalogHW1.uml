@@ -1,0 +1,1991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_o8bnECHtEeyY0fyl_SdROA" name="CourseCatalogHW1">
+    <eAnnotations xmi:id="_pRQAgCHtEeyY0fyl_SdROA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_pRU5ACHtEeyY0fyl_SdROA" source="codegen">
+        <details xmi:id="_pRU5ASHtEeyY0fyl_SdROA" key="codegenDirectory" value="/CourseCatalogHW1/src"/>
+        <details xmi:id="_qBz6wCHtEeyY0fyl_SdROA" key="AssociatedSourceCode" value="/CourseCatalogHW1/src/fileWriterTest.java;1158878288/1;/CourseCatalogHW1/src/User.java;899812513/1;/CourseCatalogHW1/src/Tokenizer.java;1483642609/1;/CourseCatalogHW1/src/Students.java;183148228/1;/CourseCatalogHW1/src/Student.java;4281809722/1;/CourseCatalogHW1/src/StoredLists.java;3564232248/1;/CourseCatalogHW1/src/Course.java;600272100/1;/CourseCatalogHW1/src/Admins.java;2737298382/1;/CourseCatalogHW1/src/Admin.java;2577242792/1;/CourseCatalogHW1/src/readerTest.java;1571803175/1;/CourseCatalogHW1/src/serialization.java;2482637677/1;/CourseCatalogHW1/src/workflow.java;4127101483/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_pofb0CHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_pogC4CHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_pogC4SHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_pogC4iHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_pogC4yHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_pogC5CHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_pogp8CHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_pogp8SHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_pohRACHtEeyY0fyl_SdROA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pnMbUCHtEeyY0fyl_SdROA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_pnNCYCHtEeyY0fyl_SdROA" name="io">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ppStECHtEeyY0fyl_SdROA" name="Serializable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ps9sISHtEeyY0fyl_SdROA" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ps-6QSHtEeyY0fyl_SdROA" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptU4gCHtEeyY0fyl_SdROA" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptWGoCHtEeyY0fyl_SdROA" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptWtsSHtEeyY0fyl_SdROA" name="ObjectOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptXUwSHtEeyY0fyl_SdROA" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptYi4CHtEeyY0fyl_SdROA" name="ObjectInputStream"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_pnPeoCHtEeyY0fyl_SdROA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ps6BwCHtEeyY0fyl_SdROA" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ps728CHtEeyY0fyl_SdROA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ps8eASHtEeyY0fyl_SdROA" name="StringTokenizer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ptIrQCHtEeyY0fyl_SdROA" name="Collections"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ptt6ECHtEeyY0fyl_SdROA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ptuhICHtEeyY0fyl_SdROA" name="Comparable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_poajUCHtEeyY0fyl_SdROA" name="fileWriterTest">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puZ2kCHtEeyY0fyl_SdROA" name="main" specification="_pohRASHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puadoCHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_puadoSHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String fileName = &quot;text.txt&quot;;
+		Scanner scan = new Scanner(System.in);
+		
+		try{
+			FileWriter fileWriter = new FileWriter(fileName);
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+			String text = scan.nextLine();
+			bufferedWriter.write(text);
+
+			bufferedWriter.write(&quot;.write or .append will also write to the file&quot;);
+			bufferedWriter.newLine();
+
+			
+//Always close writer
+			bufferedWriter.close();
+		}
+
+		//Always close files
+
+		catch (IOException exk) {
+			System.out.println( &quot;Error writing file '&quot; + fileName + &quot;'&quot;);
+			exk.printStackTrace();
+		}
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pohRASHtEeyY0fyl_SdROA" name="main" isStatic="true" method="_puZ2kCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_poh4ECHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pojtQCHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_policCHtEeyY0fyl_SdROA" name="User" visibility="package" isAbstract="true">
+      <ownedAttribute xmi:id="_pt_m4CHtEeyY0fyl_SdROA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pt_m4SHtEeyY0fyl_SdROA" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puAN8CHtEeyY0fyl_SdROA" name="firstName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puAN8SHtEeyY0fyl_SdROA" name="lastName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pueIACHtEeyY0fyl_SdROA" name="User" specification="_pon-sCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pueIASHtEeyY0fyl_SdROA" type="_policCHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>//an empty constructor&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puevECHtEeyY0fyl_SdROA" name="User" specification="_popz4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puevESHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puevEiHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puevEyHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puevFCHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puevFSHtEeyY0fyl_SdROA" type="_policCHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>username = u;&#xD;
+		password = p;&#xD;
+		firstName = first;&#xD;
+		lastName = last;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pon-sCHtEeyY0fyl_SdROA" name="User" visibility="package" method="_pueIACHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_poolwCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_poolwSHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_poolwiHtEeyY0fyl_SdROA" type="_policCHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_popz4CHtEeyY0fyl_SdROA" name="User" method="_puevECHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_poqa8yHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_poqa9CHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_popz4SHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_poqa8CHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_poqa8SHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_poqa8iHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_porCACHtEeyY0fyl_SdROA" type="_policCHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pos3MCHtEeyY0fyl_SdROA" name="Tokenizer">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puf9MCHtEeyY0fyl_SdROA" name="main" specification="_pozk4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puf9MSHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_puf9MiHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>//Array list of type person
+		ArrayList&lt;person> list = new ArrayList&lt;person>();
+		
+		
+		//This is the file name
+		String file = &quot;IDLIST&quot;;
+		
+		//input will repreent the file as a string so that we may manipulate the file 
+		String input = new Scanner(new File(file)).useDelimiter(&quot;\\A&quot;).next();
+		
+		//We remove any information we don't neccessarily need in order to get the neccessary tokens
+		input=input.replace(&quot;NAME:&quot;, &quot;\n&quot;).replace(&quot;ID:&quot;, &quot;\n&quot;);
+		//The tokenizer will look at each string token within the input
+		StringTokenizer strTokens = new StringTokenizer(input);
+		
+	
+		
+		//While there is still text to parse through within the file
+		while (strTokens.hasMoreTokens()){
+			
+			
+			
+			String first =  strTokens.nextToken();
+			String last =  strTokens.nextToken();
+			int id =  Integer.parseInt(strTokens.nextToken());
+			//creates a person from the elements found
+			person p = new person(first,last,id);
+			list.add(p);
+		}
+		for(int i=0;i&lt;list.size();i++){
+			//prints out the people within the list
+		list.get(i).print();
+		}
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pozk4CHtEeyY0fyl_SdROA" name="main" isStatic="true" method="_puf9MCHtEeyY0fyl_SdROA" raisedException="_ps-6QSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pozk4SHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_po0L8CHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_pouFUCHtEeyY0fyl_SdROA" name="person" visibility="package">
+        <eAnnotations xmi:id="_pousYCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_pousYSHtEeyY0fyl_SdROA" key="sameFile"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_puA1ACHtEeyY0fyl_SdROA" name="firstName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puA1AiHtEeyY0fyl_SdROA" name="lastName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puBcESHtEeyY0fyl_SdROA" name="ID" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puevFiHtEeyY0fyl_SdROA" name="person" specification="_povTcCHtEeyY0fyl_SdROA">
+          <ownedParameter xmi:id="_pufWICHtEeyY0fyl_SdROA" type="_pouFUCHtEeyY0fyl_SdROA" direction="return"/>
+          <language>java</language>
+          <body>//this is an empty constructor
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pufWISHtEeyY0fyl_SdROA" name="person" specification="_poxIoCHtEeyY0fyl_SdROA">
+          <ownedParameter xmi:id="_pufWIiHtEeyY0fyl_SdROA" name="fn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pufWIyHtEeyY0fyl_SdROA" name="ln">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pufWJCHtEeyY0fyl_SdROA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pufWJSHtEeyY0fyl_SdROA" type="_pouFUCHtEeyY0fyl_SdROA" direction="return"/>
+          <language>java</language>
+          <body>this.firstName=fn;
+		this.lastName=ln;
+		this.ID=id;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pufWJiHtEeyY0fyl_SdROA" name="print" specification="_poyWwCHtEeyY0fyl_SdROA">
+          <language>java</language>
+          <body>System.out.println(&quot;Name: &quot; + firstName + &quot; &quot;+lastName);
+		System.out.println(&quot;ID: &quot; + ID + &quot;\n&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_povTcCHtEeyY0fyl_SdROA" name="person" visibility="package" method="_puevFiHtEeyY0fyl_SdROA">
+          <eAnnotations xmi:id="_pov6gCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pov6gSHtEeyY0fyl_SdROA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_pov6giHtEeyY0fyl_SdROA" type="_pouFUCHtEeyY0fyl_SdROA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_poxIoCHtEeyY0fyl_SdROA" name="person" method="_pufWISHtEeyY0fyl_SdROA">
+          <eAnnotations xmi:id="_poxvsiHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_poxvsyHtEeyY0fyl_SdROA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_poxIoSHtEeyY0fyl_SdROA" name="fn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_poxvsCHtEeyY0fyl_SdROA" name="ln">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_poxvsSHtEeyY0fyl_SdROA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_poxvtCHtEeyY0fyl_SdROA" type="_pouFUCHtEeyY0fyl_SdROA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_poyWwCHtEeyY0fyl_SdROA" name="print" method="_pufWJiHtEeyY0fyl_SdROA"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_po32UCHtEeyY0fyl_SdROA" name="Students">
+      <ownedAttribute xmi:id="_po4dYCHtEeyY0fyl_SdROA" name="myCourseList" type="_ps728CHtEeyY0fyl_SdROA" isReadOnly="true" association="_pu0tUCHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_po7gsCHtEeyY0fyl_SdROA" name="deleteCourse">
+        <ownedParameter xmi:id="_po7gsSHtEeyY0fyl_SdROA" name="c">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptAvcCHtEeyY0fyl_SdROA" name="addToCourseList">
+        <ownedParameter xmi:id="_ptBWgCHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptB9kCHtEeyY0fyl_SdROA" name="addToCourseList">
+        <ownedParameter xmi:id="_ptB9kSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptB9kiHtEeyY0fyl_SdROA" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptCkoCHtEeyY0fyl_SdROA" name="deleteCourse">
+        <ownedParameter xmi:id="_ptCkoSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_po-kACHtEeyY0fyl_SdROA" name="Student">
+      <generalization xmi:id="_ptFn8CHtEeyY0fyl_SdROA" general="_policCHtEeyY0fyl_SdROA"/>
+      <ownedAttribute xmi:id="_puCDISHtEeyY0fyl_SdROA" name="courseList" visibility="private" type="_ps728CHtEeyY0fyl_SdROA" association="_pu17cCHtEeyY0fyl_SdROA"/>
+      <ownedAttribute xmi:id="_puDRQSHtEeyY0fyl_SdROA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puD4UCHtEeyY0fyl_SdROA" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puEfYCHtEeyY0fyl_SdROA" name="firstName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puFGcCHtEeyY0fyl_SdROA" name="lastName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_ptDLsCHtEeyY0fyl_SdROA" client="_po-kACHtEeyY0fyl_SdROA" supplier="_po32UCHtEeyY0fyl_SdROA" contract="_po32UCHtEeyY0fyl_SdROA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puf9MyHtEeyY0fyl_SdROA" name="Student" specification="_ppC1cCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puf9NCHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>//empty constructor&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puf9NSHtEeyY0fyl_SdROA" name="Student" specification="_ppEDkCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puf9NiHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puf9NyHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puf9OCHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puf9OSHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puf9OiHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>username = u;&#xD;
+		password = p;&#xD;
+		firstName = first;&#xD;
+		lastName = last;&#xD;
+		courseList = new ArrayList&lt;Course>();&#xD;
+		courseList.add(null);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pugkQCHtEeyY0fyl_SdROA" name="Student" specification="_ptkJECHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pugkQSHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pugkQiHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pugkQyHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pugkRCHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pugkRSHtEeyY0fyl_SdROA" name="courseList" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pugkRiHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>//all the info&#xD;
+		username = u;&#xD;
+		password = p;&#xD;
+		firstName = first;&#xD;
+		lastName = last;&#xD;
+		this.courseList = courseList;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pugkRyHtEeyY0fyl_SdROA" name="getMyCourseList" specification="_ppGf0CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pugkSCHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>return courseList;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pugkSSHtEeyY0fyl_SdROA" name="setMyCourseList" specification="_ptl-QiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pugkSiHtEeyY0fyl_SdROA" name="course" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>courseList = course;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puhLUCHtEeyY0fyl_SdROA" name="addToCourseList" specification="_ptDywCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puhLUSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>courseList.add(c);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puhLUiHtEeyY0fyl_SdROA" name="addToCourseList" specification="_ptEZ0CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puhLUyHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_puhLVCHtEeyY0fyl_SdROA" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>courseList.add(index, c);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puhyYCHtEeyY0fyl_SdROA" name="deleteCourse" specification="_ptFA4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puhyYSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>for(Course e: courseList) {&#xD;
+			if(e == c) {&#xD;
+				courseList.remove(e);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puhyYiHtEeyY0fyl_SdROA" name="deleteCourse" specification="_ppLYUCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puhyYyHtEeyY0fyl_SdROA" name="c">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>courseList.remove(c);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_ppC1cCHtEeyY0fyl_SdROA" name="Student" visibility="package" method="_puf9MyHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ppC1cSHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ppC1ciHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ppDcgCHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppEDkCHtEeyY0fyl_SdROA" name="Student" method="_puf9NSHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ppEqpCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ppFRsCHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ppEqoCHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ppEqoSHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ppEqoiHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ppEqoyHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ppFRsSHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppGf0CHtEeyY0fyl_SdROA" name="getMyCourseList" method="_pugkRyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptl-QSHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppLYUCHtEeyY0fyl_SdROA" name="deleteCourse" method="_puhyYiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ppLYUSHtEeyY0fyl_SdROA" name="c">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptDywCHtEeyY0fyl_SdROA" name="addToCourseList" method="_puhLUCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptDywSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptEZ0CHtEeyY0fyl_SdROA" name="addToCourseList" method="_puhLUiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptEZ0SHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptEZ0iHtEeyY0fyl_SdROA" name="index">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptFA4CHtEeyY0fyl_SdROA" name="deleteCourse" method="_puhyYCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptFA4SHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptkJECHtEeyY0fyl_SdROA" name="Student" method="_pugkQCHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ptkwJCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ptkwJSHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ptkJESHtEeyY0fyl_SdROA" name="u">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptkwICHtEeyY0fyl_SdROA" name="p">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptkwISHtEeyY0fyl_SdROA" name="first">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptkwIiHtEeyY0fyl_SdROA" name="last">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptkwIyHtEeyY0fyl_SdROA" name="courseList" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptkwJiHtEeyY0fyl_SdROA" type="_po-kACHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptl-QiHtEeyY0fyl_SdROA" name="setMyCourseList" method="_pugkSSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptmlUCHtEeyY0fyl_SdROA" name="course" type="_ps728CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ppSGACHtEeyY0fyl_SdROA" name="StoredLists">
+      <ownedAttribute xmi:id="_puFtgCHtEeyY0fyl_SdROA" name="adminActivated" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puGUkCHtEeyY0fyl_SdROA" name="studentList" visibility="protected" type="_ps728CHtEeyY0fyl_SdROA" association="_pu3JkCHtEeyY0fyl_SdROA"/>
+      <ownedAttribute xmi:id="_puG7oiHtEeyY0fyl_SdROA" name="courseList" visibility="protected" type="_ps728CHtEeyY0fyl_SdROA" association="_pu3woSHtEeyY0fyl_SdROA"/>
+      <interfaceRealization xmi:id="_ppZawCHtEeyY0fyl_SdROA" client="_ppSGACHtEeyY0fyl_SdROA" supplier="_ppStECHtEeyY0fyl_SdROA" contract="_ppStECHtEeyY0fyl_SdROA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puhyZCHtEeyY0fyl_SdROA" name="StoredLists" specification="_ppbP8CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puhyZSHtEeyY0fyl_SdROA" type="_ppSGACHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>/*Empty Constructor*/&#xD;
+		adminActivated = false;&#xD;
+		studentList = new ArrayList&lt;Student>();&#xD;
+		courseList = new ArrayList&lt;Course>();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puiZcCHtEeyY0fyl_SdROA" name="StoredLists" specification="_ptoagCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puiZcSHtEeyY0fyl_SdROA" name="active">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_puiZciHtEeyY0fyl_SdROA" name="list" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_puiZcyHtEeyY0fyl_SdROA" name="courses" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_puiZdCHtEeyY0fyl_SdROA" type="_ppSGACHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>adminActivated= active;&#xD;
+		studentList = list;&#xD;
+		courseList = courses;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puiZdSHtEeyY0fyl_SdROA" name="getAdminActivated" specification="_ppceECHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puiZdiHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return adminActivated;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puiZdyHtEeyY0fyl_SdROA" name="getStudentList" specification="_ppdsMCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujAgCHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return studentList;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujAgSHtEeyY0fyl_SdROA" name="getCourseList" specification="_ppgIcCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujAgiHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return courseList;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujAgyHtEeyY0fyl_SdROA" name="setStudentList" specification="_ptq2wSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujAhCHtEeyY0fyl_SdROA" name="students" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>studentList = students;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujAhSHtEeyY0fyl_SdROA" name="setCourseList" specification="_ptsE4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujAhiHtEeyY0fyl_SdROA" name="courses" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>courseList = courses;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujAhyHtEeyY0fyl_SdROA" name="activateAdmin" specification="_ppjLwCHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>adminActivated = true;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujAiCHtEeyY0fyl_SdROA" name="viewAllCourses" specification="_ppjy0CHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>for(Course c: courseList) {&#xD;
+			c.viewPrint();&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnkCHtEeyY0fyl_SdROA" name="viewAvailableCourses" specification="_ppkZ4CHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>for(Course c: courseList) {&#xD;
+			if(c.getMaxStudents()>c.getRegistered()) {&#xD;
+				c.viewPrint();&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnkSHtEeyY0fyl_SdROA" name="viewAllFullCourses" specification="_pplA8CHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>for(Course c: courseList) {&#xD;
+			if(c.getMaxStudents()==c.getRegistered()) {&#xD;
+				c.viewPrint();&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnkiHtEeyY0fyl_SdROA" name="getAllFullCourses" specification="_pplA8SHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujnkyHtEeyY0fyl_SdROA" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String writeYo = &quot;&quot;;&#xD;
+		for(Course c: courseList) {&#xD;
+			if(c.getMaxStudents()==c.getRegistered()) {&#xD;
+				writeYo += c.getPrint();&#xD;
+			}&#xD;
+		}&#xD;
+		return writeYo;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnlCHtEeyY0fyl_SdROA" name="addCourse" specification="_ptKgcCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujnlSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>courseList.add(c);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnliHtEeyY0fyl_SdROA" name="deleteCourse" specification="_ptLukCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pujnlyHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>courseList.remove(c);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pujnmCHtEeyY0fyl_SdROA" name="sortCourses" specification="_ppmPECHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>Collections.sort(courseList);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puk1sCHtEeyY0fyl_SdROA" name="addStudent" specification="_ptLukiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puk1sSHtEeyY0fyl_SdROA" name="s" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>studentList.add(s);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_ppbP8CHtEeyY0fyl_SdROA" name="StoredLists" visibility="package" method="_puhyZCHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ppbP8SHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ppbP8iHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ppbP8yHtEeyY0fyl_SdROA" type="_ppSGACHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppceECHtEeyY0fyl_SdROA" name="getAdminActivated" method="_puiZdSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ppdFICHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppdsMCHtEeyY0fyl_SdROA" name="getStudentList" method="_puiZdyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptqPsSHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppgIcCHtEeyY0fyl_SdROA" name="getCourseList" method="_pujAgSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptq2wCHtEeyY0fyl_SdROA" type="_ps728CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppjLwCHtEeyY0fyl_SdROA" name="activateAdmin" method="_pujAhyHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_ppjy0CHtEeyY0fyl_SdROA" name="viewAllCourses" method="_pujAiCHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_ppkZ4CHtEeyY0fyl_SdROA" name="viewAvailableCourses" method="_pujnkCHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_pplA8CHtEeyY0fyl_SdROA" name="viewAllFullCourses" method="_pujnkSHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_pplA8SHtEeyY0fyl_SdROA" name="getAllFullCourses" method="_pujnkiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pploACHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppmPECHtEeyY0fyl_SdROA" name="sortCourses" method="_pujnmCHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_ptKgcCHtEeyY0fyl_SdROA" name="addCourse" method="_pujnlCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptLHgCHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptLukCHtEeyY0fyl_SdROA" name="deleteCourse" method="_pujnliHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptLukSHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptLukiHtEeyY0fyl_SdROA" name="addStudent" method="_puk1sCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptMVoCHtEeyY0fyl_SdROA" name="s" type="_po-kACHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptoagCHtEeyY0fyl_SdROA" name="StoredLists" method="_puiZcCHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ptoahCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ptpBkCHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ptoagSHtEeyY0fyl_SdROA" name="active">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptoagiHtEeyY0fyl_SdROA" name="list" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptoagyHtEeyY0fyl_SdROA" name="courses" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptpBkSHtEeyY0fyl_SdROA" type="_ppSGACHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptq2wSHtEeyY0fyl_SdROA" name="setStudentList" method="_pujAgyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptq2wiHtEeyY0fyl_SdROA" name="students" type="_ps728CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptsE4CHtEeyY0fyl_SdROA" name="setCourseList" method="_pujAhSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptsE4SHtEeyY0fyl_SdROA" name="courses" type="_ps728CHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ppuK4CHtEeyY0fyl_SdROA" name="Course">
+      <ownedAttribute xmi:id="_puIw0CHtEeyY0fyl_SdROA" name="courseName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puIw0SHtEeyY0fyl_SdROA" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puIw0iHtEeyY0fyl_SdROA" name="maxStudents">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puJX4CHtEeyY0fyl_SdROA" name="registered">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puJX4SHtEeyY0fyl_SdROA" name="nameRoster" type="_ps728CHtEeyY0fyl_SdROA" association="_pu4XsSHtEeyY0fyl_SdROA"/>
+      <ownedAttribute xmi:id="_puKmACHtEeyY0fyl_SdROA" name="instructor">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puKmASHtEeyY0fyl_SdROA" name="sectionNum">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puKmAiHtEeyY0fyl_SdROA" name="location">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_ptvIMSHtEeyY0fyl_SdROA" client="_ppuK4CHtEeyY0fyl_SdROA" supplier="_ptuhICHtEeyY0fyl_SdROA" contract="_ptuhICHtEeyY0fyl_SdROA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puk1siHtEeyY0fyl_SdROA" name="Course" specification="_ppwnICHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puk1syHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>/*Empty Constructor*/&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pulcwCHtEeyY0fyl_SdROA" name="Course" specification="_ptwWUCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pulcwSHtEeyY0fyl_SdROA" name="courseName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcwiHtEeyY0fyl_SdROA" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcwyHtEeyY0fyl_SdROA" name="maxStudents">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcxCHtEeyY0fyl_SdROA" name="registered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcxSHtEeyY0fyl_SdROA" name="nameRoster" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pulcxiHtEeyY0fyl_SdROA" name="instructor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcxyHtEeyY0fyl_SdROA" name="sectionNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcyCHtEeyY0fyl_SdROA" name="location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcySHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>this.courseName = courseName;&#xD;
+		this.ID = ID;&#xD;
+		this.maxStudents = maxStudents;&#xD;
+		this.registered = registered;&#xD;
+		this.nameRoster = nameRoster;&#xD;
+		this.instructor = instructor;&#xD;
+		this.sectionNum = sectionNum;&#xD;
+		this.location = location;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pulcyiHtEeyY0fyl_SdROA" name="Course" specification="_ppzqcCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pulcyyHtEeyY0fyl_SdROA" name="courseName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulczCHtEeyY0fyl_SdROA" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulczSHtEeyY0fyl_SdROA" name="maxStudents">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulcziHtEeyY0fyl_SdROA" name="registered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulczyHtEeyY0fyl_SdROA" name="nameRoster">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulc0CHtEeyY0fyl_SdROA" name="instructor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulc0SHtEeyY0fyl_SdROA" name="sectionNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulc0iHtEeyY0fyl_SdROA" name="location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pulc0yHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>this.courseName = courseName;&#xD;
+		this.ID = Integer.parseInt(ID);&#xD;
+		this.maxStudents = Integer.parseInt(maxStudents);&#xD;
+		this.registered = Integer.parseInt(registered);&#xD;
+		// This is for Sake of Convenience, If I make a GUI I'll implement arraylist for this&#xD;
+		this.nameRoster = new ArrayList&lt;String>();&#xD;
+		this.instructor = instructor;&#xD;
+		this.sectionNum = Integer.parseInt(sectionNum);&#xD;
+		this.location = location;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pulc1CHtEeyY0fyl_SdROA" name="addToRoster" specification="_pp2GsCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pulc1SHtEeyY0fyl_SdROA" name="newName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>nameRoster.add(newName);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pumD0CHtEeyY0fyl_SdROA" name="removeFromRoster" specification="_pp2twCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pumD0SHtEeyY0fyl_SdROA" name="oldName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>nameRoster.remove(oldName);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pumD0iHtEeyY0fyl_SdROA" name="viewPrint" specification="_pp3U0SHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>System.out.println(&quot;Course Name: &quot; + courseName +&quot;\n&quot; &#xD;
+	+&quot;Course ID: &quot;+ ID+&quot;\n&quot;&#xD;
+	+&quot;Max Student Capacity: &quot;+ maxStudents+&quot;\n&quot;&#xD;
+	+&quot;Students Registered: &quot;+ registered+&quot;\n&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pumD0yHtEeyY0fyl_SdROA" name="fullViewPrint" specification="_pp374CHtEeyY0fyl_SdROA">
+        <language>java</language>
+        <body>System.out.println(&quot;Course Name: &quot; + courseName +&quot;\n&quot; &#xD;
+				+&quot;Course ID: &quot;+ ID+&quot;\n&quot;&#xD;
+				+&quot;Max Student Capacity: &quot;+ maxStudents+&quot;\n&quot;&#xD;
+				+&quot;Students Registered: &quot;+ registered+&quot;\n&quot;&#xD;
+				+&quot;Name Roster Delimited by Commas: &quot;+ nameRoster+&quot;\n&quot;&#xD;
+				+&quot;Instructor: &quot;+ instructor +&quot;\n&quot;&#xD;
+				+&quot;Section Number: &quot;+ sectionNum+&quot;\n&quot;&#xD;
+				+&quot;Course Location: &quot;+ location+&quot;\n&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pumq4CHtEeyY0fyl_SdROA" name="getPrint" specification="_pp4i8CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pumq4SHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return &quot;Course Name: &quot; + courseName +&quot;\n&quot; &#xD;
+		+&quot;Course ID: &quot;+ ID+&quot;\n&quot;&#xD;
+		+&quot;Max Student Capacity: &quot;+ maxStudents+&quot;\n&quot;&#xD;
+		+&quot;Students Registered: &quot;+ registered+&quot;\n&quot;;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pumq4iHtEeyY0fyl_SdROA" name="compareTo" specification="_ptPY8CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pumq4yHtEeyY0fyl_SdROA" name="comparecour" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pumq5CHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int comparestus&#xD;
+	            = ((Course)comparecour).getRegistered();&#xD;
+	  &#xD;
+	        //  For Ascending order&#xD;
+	        return this.registered - comparestus;&#xD;
+	    </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_ppwnICHtEeyY0fyl_SdROA" name="Course" visibility="package" method="_puk1siHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ppxOMCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ppxOMSHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ppxOMiHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ppzqcCHtEeyY0fyl_SdROA" name="Course" method="_pulcyiHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_pp04kyHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_pp04lCHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_pp0RgCHtEeyY0fyl_SdROA" name="courseName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp0RgSHtEeyY0fyl_SdROA" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp0RgiHtEeyY0fyl_SdROA" name="maxStudents">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp0RgyHtEeyY0fyl_SdROA" name="registered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp0RhCHtEeyY0fyl_SdROA" name="nameRoster">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp04kCHtEeyY0fyl_SdROA" name="instructor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp04kSHtEeyY0fyl_SdROA" name="sectionNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp04kiHtEeyY0fyl_SdROA" name="location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pp1foCHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pp2GsCHtEeyY0fyl_SdROA" name="addToRoster" method="_pulc1CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pp2GsSHtEeyY0fyl_SdROA" name="newName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pp2twCHtEeyY0fyl_SdROA" name="removeFromRoster" method="_pumD0CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pp3U0CHtEeyY0fyl_SdROA" name="oldName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pp3U0SHtEeyY0fyl_SdROA" name="viewPrint" method="_pumD0iHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_pp374CHtEeyY0fyl_SdROA" name="fullViewPrint" method="_pumD0yHtEeyY0fyl_SdROA"/>
+      <ownedOperation xmi:id="_pp4i8CHtEeyY0fyl_SdROA" name="getPrint" method="_pumq4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pp4i8SHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptPY8CHtEeyY0fyl_SdROA" name="compareTo" method="_pumq4iHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptPY8SHtEeyY0fyl_SdROA" name="comparecour" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptPY8iHtEeyY0fyl_SdROA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptwWUCHtEeyY0fyl_SdROA" name="Course" method="_pulcwCHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_ptw9ZSHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_ptw9ZiHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_ptwWUSHtEeyY0fyl_SdROA" name="courseName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptwWUiHtEeyY0fyl_SdROA" name="ID">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptwWUyHtEeyY0fyl_SdROA" name="maxStudents">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptw9YCHtEeyY0fyl_SdROA" name="registered">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptw9YSHtEeyY0fyl_SdROA" name="nameRoster" type="_ps728CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_ptw9YiHtEeyY0fyl_SdROA" name="instructor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptw9YyHtEeyY0fyl_SdROA" name="sectionNum">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptw9ZCHtEeyY0fyl_SdROA" name="location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_ptw9ZyHtEeyY0fyl_SdROA" type="_ppuK4CHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_pp_3sCHtEeyY0fyl_SdROA" name="Admins">
+      <ownedAttribute xmi:id="_pqBs4CHtEeyY0fyl_SdROA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pqCT8CHtEeyY0fyl_SdROA" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pqC7ACHtEeyY0fyl_SdROA" name="firstName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pqC7ASHtEeyY0fyl_SdROA" name="lastName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ptzZoCHtEeyY0fyl_SdROA" name="showStudentCourses">
+        <ownedParameter xmi:id="_pt0AsCHtEeyY0fyl_SdROA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pt0AsSHtEeyY0fyl_SdROA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pt0AsiHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt0AsyHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pqEwMCHtEeyY0fyl_SdROA" name="Admin">
+      <generalization xmi:id="_ptTqYCHtEeyY0fyl_SdROA" general="_policCHtEeyY0fyl_SdROA"/>
+      <ownedAttribute xmi:id="_puLNECHtEeyY0fyl_SdROA" name="username">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_puL0ISHtEeyY0fyl_SdROA" value="&quot;Admin&quot;"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_puNCQCHtEeyY0fyl_SdROA" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_puNCQiHtEeyY0fyl_SdROA" value="&quot;Admin001&quot;"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_ptTDUCHtEeyY0fyl_SdROA" client="_pqEwMCHtEeyY0fyl_SdROA" supplier="_pp_3sCHtEeyY0fyl_SdROA" contract="_pp_3sCHtEeyY0fyl_SdROA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puogEiHtEeyY0fyl_SdROA" name="Admin" specification="_pqGlYCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puogEyHtEeyY0fyl_SdROA" type="_pqEwMCHtEeyY0fyl_SdROA" direction="return"/>
+        <language>java</language>
+        <body>//empty constructor&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pupHICHtEeyY0fyl_SdROA" name="showStudentCourses" specification="_pt1O0CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pupHISHtEeyY0fyl_SdROA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pupHIiHtEeyY0fyl_SdROA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pupHIyHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pupHJCHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>for(Student i:Storage.getStudentList()) {&#xD;
+			if(i.getFirstName() == firstName &amp;&amp; i.getLastName() == lastName) {&#xD;
+				System.out.println(i.getMyCourseList());&#xD;
+			}&#xD;
+		}&#xD;
+			System.out.println(&quot;Error student not found&quot;);&#xD;
+			workflow.adminMenu(Storage,scan);&#xD;
+	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pqGlYCHtEeyY0fyl_SdROA" name="Admin" visibility="package" method="_puogEiHtEeyY0fyl_SdROA">
+        <eAnnotations xmi:id="_pqHMcCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_pqHMcSHtEeyY0fyl_SdROA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_pqHMciHtEeyY0fyl_SdROA" type="_pqEwMCHtEeyY0fyl_SdROA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt1O0CHtEeyY0fyl_SdROA" name="showStudentCourses" method="_pupHICHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt1O0SHtEeyY0fyl_SdROA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pt114CHtEeyY0fyl_SdROA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_pt114SHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt114iHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pqKPwCHtEeyY0fyl_SdROA" name="readerTest">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pupuMCHtEeyY0fyl_SdROA" name="main" specification="_pqLd4CHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pupuMSHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pupuMiHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String fileName = &quot;text.txt&quot;;
+		//References one line at a time
+		String line = null;
+		try{
+			//FileReader reads text files as characters as opposed to bytes (like FileInputStream)
+			//First, we instantiate the file reader class
+			//It's parameter would be the name of the file to read (in this case, the string variable which represents the file name);
+			
+			FileReader fileReader = new FileReader(fileName);
+			
+			//The BufferedReader class can wrap around Readers, like FileReader, to buffer the input and improve efficiency.
+			//ALWAYS wrap FileReader in BufferedReader
+			
+			BufferedReader bufferedReader = new BufferedReader(fileReader);
+			
+			//readLine() reads a line of text.
+			//A line is considered to be terminated by a new line ('\n'). So Buffered reader would literally read line by line.
+			//While there are still lines to read, our program will print the file
+			
+			while((line = bufferedReader.readLine()) != null) {
+				System.out.println(line);
+			}
+
+			//Always close files
+			bufferedReader.close();
+		}
+		//The catch block performs a specific action depending on the exception
+		catch(FileNotFoundException ex){
+			System.out.println( &quot;Unable to open file '&quot; + fileName + &quot;'&quot;);
+			//the printStackTrace method will print out an error output stream (&quot;What went wrong?&quot; report);
+			
+			ex.printStackTrace();
+		}
+
+		catch (IOException ex) {
+			System.out.println( &quot;Error reading file '&quot; + fileName + &quot;'&quot;);
+			ex.printStackTrace();
+		}
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pqLd4CHtEeyY0fyl_SdROA" name="main" isStatic="true" method="_pupuMCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pqLd4SHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pqME8CHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pqMsACHtEeyY0fyl_SdROA" name="serialization">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puqVRyHtEeyY0fyl_SdROA" name="main" specification="_pqTZsCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puqVSCHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_puqVSSHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>Employee serializedEmloyee = new Employee(&quot;Marc&quot;, &quot;Benioff&quot;, &quot;Larry Elison&quot;, 50000000, 123456789);&#xD;
+		Employee de = null;&#xD;
+		try {&#xD;
+			//FileOutput Stream writes data to a file&#xD;
+			FileOutputStream fos = new FileOutputStream(&quot;Employee.ser&quot;);&#xD;
+			&#xD;
+			//ObjectOutputStream writes objects to a stream (A sequence of data)&#xD;
+			ObjectOutputStream oos = new ObjectOutputStream(fos);&#xD;
+			&#xD;
+			//Writes the specific object to the OOS&#xD;
+			oos.writeObject(serializedEmloyee);&#xD;
+			&#xD;
+			//Close both streams&#xD;
+			oos.close();&#xD;
+			fos.close();&#xD;
+			System.out.println(&quot;Serialization complete&quot;);&#xD;
+		} &#xD;
+		catch (IOException ioe) {&#xD;
+			ioe.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		//Now we will deserialize the same object&#xD;
+		&#xD;
+		 try{&#xD;
+			  //FileInputSystem recieves bytes from a file&#xD;
+		      FileInputStream fis = new FileInputStream(&quot;Employee.ser&quot;);&#xD;
+		      &#xD;
+		      //ObjectInputStream does the deserialization-- it reconstructs the data into an object&#xD;
+		      ObjectInputStream ois = new ObjectInputStream(fis);&#xD;
+		      &#xD;
+		      //Cast as Employee. readObject will take the object from ObjectInputStream&#xD;
+		      de = (Employee)ois.readObject();&#xD;
+		      ois.close();&#xD;
+		      fis.close();&#xD;
+		    }&#xD;
+		    catch(IOException ioe) {&#xD;
+		       ioe.printStackTrace();&#xD;
+		       return;&#xD;
+		    }&#xD;
+		 catch(ClassNotFoundException cnfe) {&#xD;
+		       cnfe.printStackTrace();&#xD;
+		       return;&#xD;
+		     }&#xD;
+		    System.out.println(&quot;Employee Name: &quot;+de.getFirstName() + &quot; &quot;+de.getLastName());&#xD;
+		    System.out.println(&quot;Employee Team Leader: &quot;+de.getTeamLeader());&#xD;
+		    System.out.println(&quot;Employee Salary:&quot;+de.getSalary());&#xD;
+		    &#xD;
+		    //Notice the SSN difference. It's because SSN is Transient ;&#xD;
+		    System.out.println(&quot;Employee SSN:&quot;+de.getSSN());&#xD;
+&#xD;
+		 </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pqTZsCHtEeyY0fyl_SdROA" name="main" isStatic="true" method="_puqVRyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pqTZsSHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pqUn0CHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_pqN6ICHtEeyY0fyl_SdROA" name="Employee" visibility="package">
+        <eAnnotations xmi:id="_pqN6ISHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_pqN6IiHtEeyY0fyl_SdROA" key="sameFile"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_puOQYCHtEeyY0fyl_SdROA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puO3cCHtEeyY0fyl_SdROA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puO3cSHtEeyY0fyl_SdROA" name="teamLeader">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puO3ciHtEeyY0fyl_SdROA" name="salary">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_puPegCHtEeyY0fyl_SdROA" name="SSN">
+          <eAnnotations xmi:id="_puPegSHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_puPegiHtEeyY0fyl_SdROA" key="transient"/>
+          </eAnnotations>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_pqOhMCHtEeyY0fyl_SdROA" client="_pqN6ICHtEeyY0fyl_SdROA" supplier="_ppStECHtEeyY0fyl_SdROA" contract="_ppStECHtEeyY0fyl_SdROA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pupuMyHtEeyY0fyl_SdROA" name="Employee" specification="_pqPIQCHtEeyY0fyl_SdROA">
+          <ownedParameter xmi:id="_pupuNCHtEeyY0fyl_SdROA" type="_pqN6ICHtEeyY0fyl_SdROA" direction="return"/>
+          <language>java</language>
+          <body>/*Empty Constructor*/&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puqVQCHtEeyY0fyl_SdROA" name="Employee" specification="_pqQWYCHtEeyY0fyl_SdROA">
+          <ownedParameter xmi:id="_puqVQSHtEeyY0fyl_SdROA" name="f">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_puqVQiHtEeyY0fyl_SdROA" name="l">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_puqVQyHtEeyY0fyl_SdROA" name="tl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_puqVRCHtEeyY0fyl_SdROA" name="s">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_puqVRSHtEeyY0fyl_SdROA" name="ssn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_puqVRiHtEeyY0fyl_SdROA" type="_pqN6ICHtEeyY0fyl_SdROA" direction="return"/>
+          <language>java</language>
+          <body>firstName = f;&#xD;
+		lastName = l;&#xD;
+		teamLeader = tl;&#xD;
+		salary = s;&#xD;
+		SSN =ssn;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pqPIQCHtEeyY0fyl_SdROA" name="Employee" visibility="package" method="_pupuMyHtEeyY0fyl_SdROA">
+          <eAnnotations xmi:id="_pqPvUCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pqPvUSHtEeyY0fyl_SdROA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_pqPvUiHtEeyY0fyl_SdROA" type="_pqN6ICHtEeyY0fyl_SdROA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_pqQWYCHtEeyY0fyl_SdROA" name="Employee" visibility="package" method="_puqVQCHtEeyY0fyl_SdROA">
+          <eAnnotations xmi:id="_pqRkgiHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_pqRkgyHtEeyY0fyl_SdROA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_pqQ9cCHtEeyY0fyl_SdROA" name="f">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pqQ9cSHtEeyY0fyl_SdROA" name="l">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pqQ9ciHtEeyY0fyl_SdROA" name="tl">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pqRkgCHtEeyY0fyl_SdROA" name="s">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pqRkgSHtEeyY0fyl_SdROA" name="ssn">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_pqRkhCHtEeyY0fyl_SdROA" type="_pqN6ICHtEeyY0fyl_SdROA" direction="return"/>
+        </ownedOperation>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pqXEECHtEeyY0fyl_SdROA" name="workflow">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puq8UCHtEeyY0fyl_SdROA" name="main" specification="_pqYSMCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puq8USHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_puq8UiHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>ArrayList&lt;Course> courses = new ArrayList&lt;Course>();&#xD;
+		ArrayList&lt;Student> students = new ArrayList&lt;Student>();&#xD;
+		//ok yknow what you need to outloud the storage to other classes&#xD;
+		//Make StoredLists class available&#xD;
+		StoredLists Storage = new StoredLists();&#xD;
+		Scanner scan = new Scanner(System.in);&#xD;
+		 //passing around the Scanner class like the Storage class?&#xD;
+		&#xD;
+		//my program is a lot of chaining methods&#xD;
+&#xD;
+		//first time logging in? does the student methods exist?&#xD;
+		File file  = new File(&quot;Stored.ser&quot;);&#xD;
+		if (file.exists()) {&#xD;
+			//so you already have the course data and student data&#xD;
+			//SO DESERIALIZE please&#xD;
+			deserialize(Storage);&#xD;
+			&#xD;
+			//then we go on to ask student or admin?&#xD;
+			studentVadmin(Storage, scan);&#xD;
+				//username and password within that too&#xD;
+			&#xD;
+			// after that jump to method Main Menu&#xD;
+		}&#xD;
+		else {&#xD;
+			//get ready to store an arraylist of courses&#xD;
+			String line = null;  &#xD;
+			String splitBy = &quot;,&quot;;  &#xD;
+		&#xD;
+			try {&#xD;
+				FileReader fileReader = new FileReader(&quot;MyUniversityCourses(4).csv&quot;);&#xD;
+				BufferedReader br = new BufferedReader(fileReader);  &#xD;
+			&#xD;
+			while ((line = br.readLine()) != null)  //returns a Boolean value  &#xD;
+				{  &#xD;
+				String[] info  = line.split(splitBy);    // use comma as separator &#xD;
+				courses.add(new Course(info[0],info[1],info[2],info[3],info[4],info[5],info[6],info[7]));  &#xD;
+				}&#xD;
+			br.close();&#xD;
+			}&#xD;
+			catch(FileNotFoundException ex){&#xD;
+				System.out.println( &quot;Unable to open file&quot;);&#xD;
+				//the printStackTrace method will print out an error output stream (&quot;What went wrong?&quot; report);&#xD;
+				&#xD;
+				ex.printStackTrace();&#xD;
+			}&#xD;
+			catch (IOException ex) {&#xD;
+				System.out.println( &quot;Error reading file&quot;);&#xD;
+				ex.printStackTrace();&#xD;
+			}&#xD;
+			&#xD;
+			//you need to add the Welcome to creating/being a new Admin stuff&#xD;
+			//so yeah&#xD;
+			//remember this&#xD;
+		&#xD;
+			//ASCII ART OF ????????????????????????????????????????????????????????????????&#xD;
+			Storage.activateAdmin();&#xD;
+			Storage.setStudentList(students);&#xD;
+			Storage.setCourseList(courses);&#xD;
+			serialize(Storage);&#xD;
+			deserialize(Storage);&#xD;
+			&#xD;
+			//then we go on to ask student or admin?&#xD;
+			studentVadmin(Storage, scan);&#xD;
+		}&#xD;
+		//one more serialization before the method ends&#xD;
+		serialize(Storage);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_puq8UyHtEeyY0fyl_SdROA" name="studentVadmin" specification="_pt3rECHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_puq8VCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_puq8VSHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>System.out.println(&quot;Enter 's' for student, 'a' for admin: &quot;);&#xD;
+		String answer = scan.nextLine();&#xD;
+		if(answer.equals(&quot;s&quot;)) {&#xD;
+			System.out.println(&quot;frustration&quot;);&#xD;
+			studentLogin(Storage, scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;a&quot;)) {&#xD;
+			//implement admin login method then go to admin menu method&#xD;
+			System.out.println(&quot;Enter username:&quot;);&#xD;
+			String username = scan.nextLine();&#xD;
+			System.out.println(&quot;Enter password:&quot;);&#xD;
+			String password = scan.nextLine();&#xD;
+			if(username.equals(&quot;Admin&quot;) &amp;&amp; password.equals(&quot;Admin001&quot;)) {&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;incorrect Username or Password&quot;);&#xD;
+				studentVadmin(Storage, scan);&#xD;
+			}&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Please enter either lowercase s or a&quot;);&#xD;
+			studentVadmin(Storage, scan);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_purjYCHtEeyY0fyl_SdROA" name="studentLogin" specification="_pt4SICHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_purjYSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjYiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//implement student login method then go to student menu method&#xD;
+		System.out.println(&quot;Enter username:&quot;);&#xD;
+		String username = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter password:&quot;);&#xD;
+		String password = scan.nextLine();&#xD;
+		//do a loop to check that the usernmae and password matches up with a student&#xD;
+		for(Student i:Storage.getStudentList()) {&#xD;
+			if(i.getUsername().equals(username) &amp;&amp; i.getPassword().equals(password)) {&#xD;
+				studentMenu(Storage, i, scan);&#xD;
+			}&#xD;
+		}&#xD;
+			System.out.println(&quot;incorrect Username or Password&quot;);&#xD;
+			studentLogin(Storage, scan);&#xD;
+	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_purjYyHtEeyY0fyl_SdROA" name="studentMenu" specification="_pt45MCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_purjZCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjZSHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjZiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>System.out.println(&quot;Enter '1' to View all courses \n &quot;&#xD;
+				+ &quot;'2' to View all courses that aren't full \n &quot;&#xD;
+				+ &quot;'3' to Register on a course \n&quot;&#xD;
+				+ &quot;'4' to Withdraw from a course \n&quot;&#xD;
+				+ &quot;'5' to View all courses that the current student is registered in \n&quot;&#xD;
+				+ &quot;or '6' to  Exit&quot;);&#xD;
+		String answer = scan.nextLine();&#xD;
+		if(answer.equals(&quot;1&quot;)) {&#xD;
+			//method to view all the courses&#xD;
+			Storage.viewAllCourses();&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;2&quot;)) {&#xD;
+			//method to view all the Available courses&#xD;
+			Storage.viewAvailableCourses();&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;3&quot;)) {&#xD;
+			//method to Register to a Course&#xD;
+			registerTheKid(Storage, kid,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;4&quot;)) {&#xD;
+			//method to Withdraw from a course&#xD;
+			withdrawTheCourse(Storage,kid,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;5&quot;)) {&#xD;
+			//method to view all the courses The student is registered in&#xD;
+			System.out.println(kid.getMyCourseList());&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;6&quot;)) {&#xD;
+			return;&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Please enter a number from 1 to 6&quot;);&#xD;
+			studentMenu(Storage,kid, scan);&#xD;
+		}&#xD;
+		studentMenu(Storage,kid,scan);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_purjZyHtEeyY0fyl_SdROA" name="adminMenu" specification="_pt5gQCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_purjaCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjaSHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>Admin carl = new Admin(); //honestly I feel like the Admin class isn't necessary but I think cosmetically it looks more coherent&#xD;
+		if(Storage.getAdminActivated() != true) {&#xD;
+			System.out.println(&quot;Welcome new Admin. Your Username and Password are 'Admin' and 'Admin001' respectively&quot;);&#xD;
+		}&#xD;
+		System.out.println(&quot;Enter 'cm' for Course Management, 'r' for Reports, or 'exit' to exit: &quot;);&#xD;
+		String bigAnswer = scan.nextLine();&#xD;
+		if(bigAnswer.equals(&quot;cm&quot;)) {//course management&#xD;
+			System.out.println(&quot;Enter '1' to Create a new course \n &quot;&#xD;
+					+ &quot;'2' to Delete a course \n &quot;&#xD;
+					+ &quot;'3' to Edit a course \n&quot;&#xD;
+					+ &quot;'4' to Display information on a course\n&quot;&#xD;
+					+ &quot;'5' to Register a Student \n&quot;&#xD;
+					+ &quot;or '6' to  Exit&quot;);&#xD;
+			String smolAnswer = scan.nextLine();&#xD;
+			if(smolAnswer.equals(&quot;1&quot;)) {&#xD;
+				//method to create course&#xD;
+				createCourse(Storage,scan);&#xD;
+			}&#xD;
+			else if(smolAnswer.equals(&quot;2&quot;)) {&#xD;
+				//method to delete coursescan&#xD;
+				deleteCourse(Storage,scan);&#xD;
+			}&#xD;
+			else if(smolAnswer.equals(&quot;3&quot;)) {&#xD;
+				//method to edit course&#xD;
+				System.out.println(&quot;Enter the course name of the course you want to edit:&quot;);&#xD;
+				String courseName = scan.nextLine();&#xD;
+				for(Course c:Storage.getCourseList()) {&#xD;
+					if(c.getCourseName().equals(courseName)) {&#xD;
+						editCourse(Storage, c,scan);&#xD;
+						return;&#xD;
+					}&#xD;
+				}&#xD;
+				System.out.println(&quot;Error, Course not found&quot;);&#xD;
+				adminMenu(Storage,scan);&#xD;
+				&#xD;
+			}&#xD;
+			else if(smolAnswer.equals(&quot;4&quot;)) {&#xD;
+				//method to display info on course&#xD;
+				System.out.println(&quot;Enter the course ID of the course you want to see:&quot;);&#xD;
+				String ID = scan.nextLine();&#xD;
+				for(Course c:Storage.getCourseList()) {&#xD;
+					if(c.getID() == Integer.parseInt(ID)) {&#xD;
+						c.fullViewPrint();&#xD;
+						return;&#xD;
+					}&#xD;
+				}&#xD;
+				System.out.println(&quot;Error, Course not found&quot;);&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+			else if(smolAnswer.equals(&quot;5&quot;)) {&#xD;
+				//method to register a student&#xD;
+				registration(Storage,scan);&#xD;
+			}&#xD;
+			else if(smolAnswer.equals(&quot;6&quot;)) {&#xD;
+				return;&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;Please enter a number from 1 to 6&quot;);&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		else if(bigAnswer.equals(&quot;r&quot;)) {&#xD;
+			System.out.println(&quot;Enter '1' to View all courses \n &quot;&#xD;
+					+ &quot;'2' to View all courses that are at full student capacity \n &quot;&#xD;
+					+ &quot;'3' to Write to a file a list of courses that are full \n&quot;&#xD;
+					+ &quot;'4' to View the Names of the students being Registered in a specific course \n&quot;&#xD;
+					+ &quot;'5' to View the list of courses a specific student is registered in \n&quot;&#xD;
+					+ &quot;'6' to Sort the courses based on the current number of registered Students \n&quot;&#xD;
+					+ &quot;or '7' to  Exit&quot;);&#xD;
+			String smallAnswer = scan.nextLine();&#xD;
+			if(smallAnswer.equals(&quot;1&quot;)) {&#xD;
+				//method to view all courses&#xD;
+				Storage.viewAllCourses();&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;2&quot;)) {&#xD;
+				//method to view all full courses&#xD;
+				Storage.viewAllFullCourses();&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;3&quot;)) {&#xD;
+				//method to write that list into a file&#xD;
+				writtenList(Storage,scan);&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;4&quot;)) {&#xD;
+				//method to view names of students in specific course&#xD;
+				&#xD;
+				//which course do you want the student roster from?&#xD;
+				System.out.println(&quot;Enter the course name of the course you want to see the Student Roster from:&quot;);&#xD;
+				String courseName = scan.nextLine();&#xD;
+				for(Course c:Storage.getCourseList()) {&#xD;
+					if(c.getCourseName().equals(courseName)) {&#xD;
+						System.out.println(c.getNameRoster());&#xD;
+						return;&#xD;
+					}&#xD;
+				}&#xD;
+				System.out.println(&quot;Error, Course not found&quot;);&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;5&quot;)) {&#xD;
+				//method to view names of courses with specific student&#xD;
+				System.out.println(&quot;Enter student's first name:&quot;);&#xD;
+				String firstName = scan.nextLine();&#xD;
+				System.out.println(&quot;Enter student's last name:&quot;);&#xD;
+				String lastName = scan.nextLine();&#xD;
+				carl.showStudentCourses(firstName, lastName, Storage, scan);&#xD;
+				//yeah use admin method&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;6&quot;)) {&#xD;
+				//method to sort courses by registered students&#xD;
+				Storage.sortCourses();&#xD;
+			}&#xD;
+			else if(smallAnswer.equals(&quot;7&quot;)) {&#xD;
+				return;&#xD;
+			}&#xD;
+			else {&#xD;
+				System.out.println(&quot;Please enter a number from 1 to 7&quot;);&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+		}&#xD;
+		else if(bigAnswer.equals(&quot;exit&quot;)) {&#xD;
+			return;&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Please enter either lowercase cm or r&quot;);&#xD;
+			adminMenu(Storage,scan);&#xD;
+		}&#xD;
+		adminMenu(Storage,scan);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_purjaiHtEeyY0fyl_SdROA" name="registerTheKid" specification="_pt5gQyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_purjayHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjbCHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_purjbSHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//course name, session and Kids full name to add onto the roster&#xD;
+		System.out.println(&quot;Enter course name:&quot;);&#xD;
+		String courseName = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter course section:&quot;);&#xD;
+		String courseSection = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter your Full Name:&quot;);&#xD;
+		String fullName = scan.nextLine();&#xD;
+		for(Course c:Storage.getCourseList()) {&#xD;
+			if(c.getCourseName().equals(courseName) &amp;&amp; c.getSectionNum() == Integer.parseInt(courseSection)) {&#xD;
+				c.addToRoster(fullName);&#xD;
+				kid.addToCourseList(c);&#xD;
+				return;&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;Error, Course not found&quot;);&#xD;
+		studentMenu(Storage,kid,scan); //return to Student Menu&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusKcCHtEeyY0fyl_SdROA" name="withdrawTheCourse" specification="_pt6HUSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusKcSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusKciHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusKcyHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//just student name and course&#xD;
+		System.out.println(&quot;Enter your Full Name:&quot;);&#xD;
+		String fullName = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter course name:&quot;);&#xD;
+		String courseName = scan.nextLine();&#xD;
+		for(Course c:Storage.getCourseList()) {&#xD;
+			if(c.getCourseName().equals(courseName)) {&#xD;
+				c.removeFromRoster(fullName);&#xD;
+				kid.deleteCourse(c);&#xD;
+				return;&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;Error, Course not found&quot;);&#xD;
+		studentMenu(Storage,kid,scan); //return to Student Menu&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusKdCHtEeyY0fyl_SdROA" name="createCourse" specification="_pt6uYSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusKdSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusKdiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//all the relevant parameters for a course&#xD;
+		System.out.println(&quot;Enter course name:&quot;);&#xD;
+		String courseName = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter course ID:&quot;);&#xD;
+		String ID = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter courses' Max capacity for students:&quot;);&#xD;
+		String maxStudents = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter number of currently registered students:&quot;);&#xD;
+		String registered = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter the names of the registered students separated by a comma:&quot;);&#xD;
+		String nameRoster = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter instructor name:&quot;);&#xD;
+		String instructor = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter course section:&quot;);&#xD;
+		String courseSection = scan.nextLine();&#xD;
+		System.out.println(&quot;Enter course location:&quot;);&#xD;
+		String location = scan.nextLine();&#xD;
+		&#xD;
+		try {&#xD;
+			ArrayList&lt;String> roster = new ArrayList&lt;String>();&#xD;
+			String[] names = nameRoster.split(&quot;,&quot;);&#xD;
+			for(String s: names) {&#xD;
+				roster.add(s);&#xD;
+			}&#xD;
+		&#xD;
+			//and now we've constructed a new course and add it to the list of courses&#xD;
+			Course newThing = new Course(courseName, Integer.parseInt(ID), &#xD;
+					Integer.parseInt(maxStudents), Integer.parseInt(registered), &#xD;
+					roster, instructor, Integer.parseInt(courseSection), location);&#xD;
+			Storage.addCourse(newThing);&#xD;
+			return;&#xD;
+		}&#xD;
+		catch (Exception ex) {&#xD;
+			System.out.println( &quot;Error creating Course&quot;);&#xD;
+			ex.printStackTrace();&#xD;
+			adminMenu(Storage,scan);&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusKdyHtEeyY0fyl_SdROA" name="deleteCourse" specification="_pt7VcCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusKeCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusKeSHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//take the course name to choose which course to delete&#xD;
+		System.out.println(&quot;Enter course name:&quot;);&#xD;
+		String courseName = scan.nextLine();&#xD;
+		for(Course c:Storage.getCourseList()) {&#xD;
+			if(c.getCourseName().equals(courseName)) {&#xD;
+				c.removeFromRoster(courseName);&#xD;
+				Storage.deleteCourse(c);&#xD;
+				return;&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;Error, Course not found&quot;);&#xD;
+		adminMenu(Storage,scan);&#xD;
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusxgCHtEeyY0fyl_SdROA" name="editCourse" specification="_pt78gSHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusxgSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusxgiHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusxgyHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//figure out which part to edit&#xD;
+		System.out.println(&quot;Enter '1' to edit the Maximum Students number \n &quot;&#xD;
+				+ &quot;'2' to edit the number of Registered Students \n &quot;&#xD;
+				+ &quot;'3' to edit the Student Roster \n&quot;&#xD;
+				+ &quot;'4' to edit the instructor name \n&quot;&#xD;
+				+ &quot;'5' to edit the Section Number \n&quot;&#xD;
+				+ &quot;'6' to edit the location \n&quot;&#xD;
+				+ &quot;or '7' to  Exit&quot;);&#xD;
+		String answer = scan.nextLine();&#xD;
+		if(answer.equals(&quot;1&quot;)) {&#xD;
+			//method to edit the max students&#xD;
+			System.out.println(&quot;Enter courses' Max capacity for students:&quot;);&#xD;
+			String maxStudents = scan.nextLine();&#xD;
+			c.setMaxStudents(Integer.parseInt(maxStudents));&#xD;
+			editCourse(Storage, c,scan);&#xD;
+			&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;2&quot;)) {&#xD;
+			//method to edit number of currenty registered students&#xD;
+			System.out.println(&quot;Enter number of currently registered students:&quot;);&#xD;
+			String registered = scan.nextLine();&#xD;
+			c.setRegistered(Integer.parseInt(registered));&#xD;
+			editCourse(Storage, c,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;3&quot;)) {&#xD;
+			//method to edit the name roster&#xD;
+			System.out.println(&quot;Enter the names of the registered students separated by a comma:&quot;);&#xD;
+			String nameRoster = scan.nextLine();&#xD;
+			try {&#xD;
+				ArrayList&lt;String> roster = new ArrayList&lt;String>();&#xD;
+				String[] names = nameRoster.split(&quot;,&quot;);&#xD;
+				for(String s: names) {&#xD;
+					roster.add(s);&#xD;
+				}&#xD;
+				c.setNameRoster(roster);&#xD;
+			}&#xD;
+			catch (Exception ex) {&#xD;
+				System.out.println( &quot;Error editing Course&quot;);&#xD;
+				ex.printStackTrace();&#xD;
+				adminMenu(Storage,scan);&#xD;
+			}&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;4&quot;)) {&#xD;
+			//method to edit instructor Name&#xD;
+			System.out.println(&quot;Enter instructor name:&quot;);&#xD;
+			String instructor = scan.nextLine();&#xD;
+			c.setInstructor(instructor);&#xD;
+			editCourse(Storage, c,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;5&quot;)) {&#xD;
+			//method to edit Course Section&#xD;
+			System.out.println(&quot;Enter course section:&quot;);&#xD;
+			String courseSection = scan.nextLine();&#xD;
+			c.setSectionNum(Integer.parseInt(courseSection));&#xD;
+			editCourse(Storage, c,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;6&quot;)) {&#xD;
+			//method to edit Course Location&#xD;
+			System.out.println(&quot;Enter course location:&quot;);&#xD;
+			String location = scan.nextLine();&#xD;
+			c.setLocation(location);&#xD;
+			editCourse(Storage, c,scan);&#xD;
+		}&#xD;
+		else if(answer.equals(&quot;7&quot;)) {&#xD;
+			return;&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Please enter a number from 1 to 7&quot;);&#xD;
+			editCourse(Storage, c,scan);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusxhCHtEeyY0fyl_SdROA" name="registration" specification="_pt8jkCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusxhSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusxhiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>//all the relevant parameters for a new student&#xD;
+				System.out.println(&quot;Enter student's username:&quot;);&#xD;
+				String username = scan.nextLine();&#xD;
+				System.out.println(&quot;Enter student's password:&quot;);&#xD;
+				String password = scan.nextLine();&#xD;
+				System.out.println(&quot;Enter student's first name:&quot;);&#xD;
+				String firstName = scan.nextLine();&#xD;
+				System.out.println(&quot;Enter student's last name:&quot;);&#xD;
+				String lastName = scan.nextLine();&#xD;
+				&#xD;
+				try {&#xD;
+					//and now we've constructed a new course and add it to the list of courses&#xD;
+					Student newKid = new Student(username, password, firstName, lastName);&#xD;
+					Storage.addStudent(newKid);&#xD;
+					return;&#xD;
+				}&#xD;
+				catch (Exception ex) {&#xD;
+					System.out.println( &quot;Error Registering Student&quot;);&#xD;
+					ex.printStackTrace();&#xD;
+					adminMenu(Storage,scan);&#xD;
+				}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusxhyHtEeyY0fyl_SdROA" name="writtenList" specification="_pt9KoCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusxiCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pusxiSHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>String fileName = &quot;text.txt&quot;;&#xD;
+		&#xD;
+		try{&#xD;
+			FileWriter fileWriter = new FileWriter(fileName);&#xD;
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);&#xD;
+			String text = scan.nextLine();&#xD;
+			bufferedWriter.write(text);&#xD;
+&#xD;
+			bufferedWriter.write(Storage.getAllFullCourses());&#xD;
+			bufferedWriter.newLine();&#xD;
+&#xD;
+			&#xD;
+			//Always close writer&#xD;
+			bufferedWriter.close();&#xD;
+			scan.close();&#xD;
+		}&#xD;
+&#xD;
+		//Always close files&#xD;
+&#xD;
+		catch (IOException exk) {&#xD;
+			System.out.println( &quot;Error writing file '&quot; + fileName + &quot;'&quot;);&#xD;
+			exk.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pusxiiHtEeyY0fyl_SdROA" name="serialize" specification="_ptbmMCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pusxiyHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>try {&#xD;
+				StoredLists serializedLists = new StoredLists(true, Storage.getStudentList(), Storage.getCourseList());&#xD;
+				//FileOutput Stream writes data to a file&#xD;
+				FileOutputStream fos = new FileOutputStream(&quot;Stored.ser&quot;);&#xD;
+				&#xD;
+				//ObjectOutputStream writes objects to a stream (A sequence of data)&#xD;
+				ObjectOutputStream oos = new ObjectOutputStream(fos);&#xD;
+				&#xD;
+				//Writes the specific object to the OOS&#xD;
+				oos.writeObject(serializedLists);&#xD;
+				&#xD;
+				//Close both streams&#xD;
+				oos.close();&#xD;
+				fos.close();&#xD;
+				System.out.println(&quot;Serialization complete&quot;);&#xD;
+			} &#xD;
+			catch (IOException ioe) {&#xD;
+				ioe.printStackTrace();&#xD;
+			}&#xD;
+			&#xD;
+		</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_putYkCHtEeyY0fyl_SdROA" name="deserialize" specification="_ptbmMiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_putYkSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <language>java</language>
+        <body>try{&#xD;
+				 StoredLists store = null;&#xD;
+				 //FileInputSystem recieves bytes from a file&#xD;
+				 FileInputStream fis = new FileInputStream(&quot;Stored.ser&quot;);&#xD;
+				      &#xD;
+				 //ObjectInputStream does the deserialization-- it reconstructs the data into an object&#xD;
+				 ObjectInputStream ois = new ObjectInputStream(fis);&#xD;
+				      &#xD;
+				 //Cast as . readObject will take the object from ObjectInputStream&#xD;
+			     store = (StoredLists)ois.readObject();&#xD;
+				 ois.close();&#xD;
+				 fis.close();&#xD;
+				 Storage.studentList = store.getStudentList();&#xD;
+				 Storage.courseList = store.getCourseList();&#xD;
+			}&#xD;
+			catch(IOException ioe) {&#xD;
+				 ioe.printStackTrace();&#xD;
+				 return;&#xD;
+			}&#xD;
+			catch(ClassNotFoundException cnfe) {&#xD;
+				 cnfe.printStackTrace();&#xD;
+				 return;&#xD;
+			}//maybe do some system.out.println to show that the deserialization worked?&#xD;
+&#xD;
+		</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_pqYSMCHtEeyY0fyl_SdROA" name="main" isStatic="true" method="_puq8UCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pqYSMSHtEeyY0fyl_SdROA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pqY5QCHtEeyY0fyl_SdROA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptbmMCHtEeyY0fyl_SdROA" name="serialize" isStatic="true" method="_pusxiiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptbmMSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ptbmMiHtEeyY0fyl_SdROA" name="deserialize" isStatic="true" method="_putYkCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_ptbmMyHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt3rECHtEeyY0fyl_SdROA" name="studentVadmin" isStatic="true" method="_puq8UyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt3rESHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt3rEiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt4SICHtEeyY0fyl_SdROA" name="studentLogin" isStatic="true" method="_purjYCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt4SISHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt4SIiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt45MCHtEeyY0fyl_SdROA" name="studentMenu" isStatic="true" method="_purjYyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt45MSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt45MiHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt45MyHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt5gQCHtEeyY0fyl_SdROA" name="adminMenu" isStatic="true" method="_purjZyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt5gQSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt5gQiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt5gQyHtEeyY0fyl_SdROA" name="registerTheKid" isStatic="true" method="_purjaiHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt5gRCHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt5gRSHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt6HUCHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt6HUSHtEeyY0fyl_SdROA" name="withdrawTheCourse" isStatic="true" method="_pusKcCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt6HUiHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt6HUyHtEeyY0fyl_SdROA" name="kid" type="_po-kACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt6uYCHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt6uYSHtEeyY0fyl_SdROA" name="createCourse" isStatic="true" method="_pusKdCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt6uYiHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt6uYyHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt7VcCHtEeyY0fyl_SdROA" name="deleteCourse" isStatic="true" method="_pusKdyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt7VcSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt78gCHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt78gSHtEeyY0fyl_SdROA" name="editCourse" isStatic="true" method="_pusxgCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt78giHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt78gyHtEeyY0fyl_SdROA" name="c" type="_ppuK4CHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt78hCHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt8jkCHtEeyY0fyl_SdROA" name="registration" isStatic="true" method="_pusxhCHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt8jkSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt8jkiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_pt9KoCHtEeyY0fyl_SdROA" name="writtenList" isStatic="true" method="_pusxhyHtEeyY0fyl_SdROA">
+        <ownedParameter xmi:id="_pt9KoSHtEeyY0fyl_SdROA" name="Storage" type="_ppSGACHtEeyY0fyl_SdROA"/>
+        <ownedParameter xmi:id="_pt9KoiHtEeyY0fyl_SdROA" name="scan" type="_ps6BwCHtEeyY0fyl_SdROA"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pu0tUCHtEeyY0fyl_SdROA" name="" memberEnd="_pu0tUSHtEeyY0fyl_SdROA _po4dYCHtEeyY0fyl_SdROA">
+      <ownedEnd xmi:id="_pu0tUSHtEeyY0fyl_SdROA" name="" type="_po32UCHtEeyY0fyl_SdROA" association="_pu0tUCHtEeyY0fyl_SdROA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pu17cCHtEeyY0fyl_SdROA" name="" memberEnd="_pu17cSHtEeyY0fyl_SdROA _puCDISHtEeyY0fyl_SdROA">
+      <ownedEnd xmi:id="_pu17cSHtEeyY0fyl_SdROA" name="" type="_po-kACHtEeyY0fyl_SdROA" association="_pu17cCHtEeyY0fyl_SdROA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pu3JkCHtEeyY0fyl_SdROA" name="" memberEnd="_pu3JkSHtEeyY0fyl_SdROA _puGUkCHtEeyY0fyl_SdROA">
+      <ownedEnd xmi:id="_pu3JkSHtEeyY0fyl_SdROA" name="" type="_ppSGACHtEeyY0fyl_SdROA" association="_pu3JkCHtEeyY0fyl_SdROA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pu3woSHtEeyY0fyl_SdROA" name="" memberEnd="_pu3woiHtEeyY0fyl_SdROA _puG7oiHtEeyY0fyl_SdROA">
+      <ownedEnd xmi:id="_pu3woiHtEeyY0fyl_SdROA" name="" type="_ppSGACHtEeyY0fyl_SdROA" association="_pu3woSHtEeyY0fyl_SdROA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pu4XsSHtEeyY0fyl_SdROA" name="" memberEnd="_pu4XsiHtEeyY0fyl_SdROA _puJX4SHtEeyY0fyl_SdROA">
+      <ownedEnd xmi:id="_pu4XsiHtEeyY0fyl_SdROA" name="" type="_ppuK4CHtEeyY0fyl_SdROA" association="_pu4XsSHtEeyY0fyl_SdROA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_pRXVQCHtEeyY0fyl_SdROA">
+      <eAnnotations xmi:id="_pRa_oCHtEeyY0fyl_SdROA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_pRgfMCHtEeyY0fyl_SdROA" base_Package="_o8bnECHtEeyY0fyl_SdROA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_po6SkCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_po4dYCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ppHt8CHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ppGf0CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ppIVACHtEeyY0fyl_SdROA" base_Element="_ppGf0CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Annotations xmi:id="_ppKKMCHtEeyY0fyl_SdROA" base_Element="_ppGf0CHtEeyY0fyl_SdROA">
+    <annotations xmi:id="_ppKKMSHtEeyY0fyl_SdROA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ppT7MCHtEeyY0fyl_SdROA" base_Element="_ppStECHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ppfhYCHtEeyY0fyl_SdROA" genericsValue="Student" base_Element="_ppdsMCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_pph9oCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ppgIcCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pqUAwCHtEeyY0fyl_SdROA" base_Element="_pqTZsCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Array xmi:id="_pqUn0SHtEeyY0fyl_SdROA" base_Element="_pqTZsSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ps7P4CHtEeyY0fyl_SdROA" base_Element="_ps6BwCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ps8eACHtEeyY0fyl_SdROA" base_Element="_ps728CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ps9sICHtEeyY0fyl_SdROA" base_Element="_ps8eASHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ps-6QCHtEeyY0fyl_SdROA" base_Element="_ps9sISHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ps_hUCHtEeyY0fyl_SdROA" base_Element="_ps-6QSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptJ5YCHtEeyY0fyl_SdROA" base_Element="_ptIrQCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ptQAACHtEeyY0fyl_SdROA" base_Element="_ptPY8CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Annotations xmi:id="_ptQnECHtEeyY0fyl_SdROA" base_Element="_ptPY8CHtEeyY0fyl_SdROA">
+    <annotations xmi:id="_ptQnESHtEeyY0fyl_SdROA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ptVfkCHtEeyY0fyl_SdROA" base_Element="_ptU4gCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptWtsCHtEeyY0fyl_SdROA" base_Element="_ptWGoCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptXUwCHtEeyY0fyl_SdROA" base_Element="_ptWtsSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptX70CHtEeyY0fyl_SdROA" base_Element="_ptXUwSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptZJ8CHtEeyY0fyl_SdROA" base_Element="_ptYi4CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptl-QCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ptkwIyHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptnMYCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ptmlUCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptpooCHtEeyY0fyl_SdROA" genericsValue="Student" base_Element="_ptoagiHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptqPsCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ptoagyHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptrd0CHtEeyY0fyl_SdROA" genericsValue="Student" base_Element="_ptq2wiHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptsr8CHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ptsE4SHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_ptvIMCHtEeyY0fyl_SdROA" base_Element="_ptuhICHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptvvQCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_ptvIMSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_ptxkcCHtEeyY0fyl_SdROA" genericsValue="String" base_Element="_ptw9YSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pt114yHtEeyY0fyl_SdROA" base_Element="_pt1O0CHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Annotations xmi:id="_pt2c8CHtEeyY0fyl_SdROA" base_Element="_pt1O0CHtEeyY0fyl_SdROA">
+    <annotations xmi:id="_pt2c8SHtEeyY0fyl_SdROA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puA1ASHtEeyY0fyl_SdROA" base_Element="_puA1ACHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puBcECHtEeyY0fyl_SdROA" base_Element="_puA1AiHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puCDICHtEeyY0fyl_SdROA" base_Element="_puBcESHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_puCqMCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_puCDISHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puDRQCHtEeyY0fyl_SdROA" base_Element="_puCDISHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puFtgSHtEeyY0fyl_SdROA" base_Element="_puFtgCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_puG7oCHtEeyY0fyl_SdROA" genericsValue="Student" base_Element="_puGUkCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puG7oSHtEeyY0fyl_SdROA" base_Element="_puGUkCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_puHisCHtEeyY0fyl_SdROA" genericsValue="Course" base_Element="_puG7oiHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puIJwCHtEeyY0fyl_SdROA" base_Element="_puG7oiHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Generics xmi:id="_puJ-8CHtEeyY0fyl_SdROA" genericsValue="String" base_Element="_puJX4SHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puL0ICHtEeyY0fyl_SdROA" base_Element="_puLNECHtEeyY0fyl_SdROA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_puMbMCHtEeyY0fyl_SdROA" name="getUsername" method="_punR8CHtEeyY0fyl_SdROA">
+      <ownedParameter xmi:id="_puMbMyHtEeyY0fyl_SdROA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_puMbMSHtEeyY0fyl_SdROA" name="setUsername" method="_pun5ACHtEeyY0fyl_SdROA">
+      <ownedParameter xmi:id="_puMbMiHtEeyY0fyl_SdROA" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_puNCQSHtEeyY0fyl_SdROA" base_Element="_puNCQCHtEeyY0fyl_SdROA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_puNpUCHtEeyY0fyl_SdROA" name="getPassword" method="_pun5AiHtEeyY0fyl_SdROA">
+      <ownedParameter xmi:id="_puNpUyHtEeyY0fyl_SdROA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_puNpUSHtEeyY0fyl_SdROA" name="setPassword" method="_puogECHtEeyY0fyl_SdROA">
+      <ownedParameter xmi:id="_puNpUiHtEeyY0fyl_SdROA" name="word">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_punR8CHtEeyY0fyl_SdROA" name="getUsername" specification="_puMbMCHtEeyY0fyl_SdROA">
+    <ownedParameter xmi:id="_punR8SHtEeyY0fyl_SdROA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return super.getUsername();&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_pun5ACHtEeyY0fyl_SdROA" name="setUsername" specification="_puMbMSHtEeyY0fyl_SdROA">
+    <ownedParameter xmi:id="_pun5ASHtEeyY0fyl_SdROA" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>username = &quot;Admin&quot;;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_pun5AiHtEeyY0fyl_SdROA" name="getPassword" specification="_puNpUCHtEeyY0fyl_SdROA">
+    <ownedParameter xmi:id="_pun5AyHtEeyY0fyl_SdROA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return super.getPassword();&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_puogECHtEeyY0fyl_SdROA" name="setPassword" specification="_puNpUSHtEeyY0fyl_SdROA">
+    <ownedParameter xmi:id="_puogESHtEeyY0fyl_SdROA" name="word">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>password = &quot;Admin001&quot;;&#xD;
+		</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_pu1UYCHtEeyY0fyl_SdROA" base_Element="_pu0tUCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_pu2igCHtEeyY0fyl_SdROA" base_Element="_pu17cCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_pu3woCHtEeyY0fyl_SdROA" base_Element="_pu3JkCHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_pu4XsCHtEeyY0fyl_SdROA" base_Element="_pu3woSHtEeyY0fyl_SdROA"/>
+  <UMLLabProfile:Reference xmi:id="_pu4-wCHtEeyY0fyl_SdROA" base_Element="_pu4XsSHtEeyY0fyl_SdROA"/>
+</xmi:XMI>

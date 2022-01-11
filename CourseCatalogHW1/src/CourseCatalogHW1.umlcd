@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_o_2ugCHtEeyY0fyl_SdROA">
+  <modelElement href="../CourseCatalogHW1.uml#_o8bnECHtEeyY0fyl_SdROA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qCcz8CHtEeyY0fyl_SdROA" source="_qCepICHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pu4XsSHtEeyY0fyl_SdROA"/>
+    <stereotypes xmi:id="_qCdbACHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_pu4-wCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qCdbASHtEeyY0fyl_SdROA" text=""/>
+    <sourceRole xmi:id="_qCdbAiHtEeyY0fyl_SdROA" aggregationKind="NONE" name="">
+      <modelElement href="../CourseCatalogHW1.uml#_pu4XsiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCdbAyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCdbBCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qCdbBSHtEeyY0fyl_SdROA" aggregationKind="NONE" name="nameRoster" navigable="true">
+      <modelElement href="../CourseCatalogHW1.uml#_puJX4SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCdbBiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCdbByHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qE2AoCHtEeyY0fyl_SdROA" source="_qE65ICHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pu0tUCHtEeyY0fyl_SdROA"/>
+    <stereotypes xmi:id="_qE4c4CHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_pu1UYCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qE310CHtEeyY0fyl_SdROA" text=""/>
+    <sourceRole xmi:id="_qE310SHtEeyY0fyl_SdROA" aggregationKind="NONE" name="">
+      <modelElement href="../CourseCatalogHW1.uml#_pu0tUSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE5D8SHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE5D8CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qE310iHtEeyY0fyl_SdROA" aggregationKind="NONE" name="myCourseList" navigable="true">
+      <modelElement href="../CourseCatalogHW1.uml#_po4dYCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE5D8yHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE5D8iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qFIUgCHtEeyY0fyl_SdROA" sourceAnchor="616.0,0.0" targetAnchor="183.0,219.0" dashed="true" superClass="_qE65ICHtEeyY0fyl_SdROA" subClass="_qFYzMCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ptDLsCHtEeyY0fyl_SdROA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qFL-4CHtEeyY0fyl_SdROA" source="_qFYzMCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pu17cCHtEeyY0fyl_SdROA"/>
+    <stereotypes xmi:id="_qFT6siHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_pu2igCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qFTToCHtEeyY0fyl_SdROA" text=""/>
+    <sourceRole xmi:id="_qFT6sCHtEeyY0fyl_SdROA" aggregationKind="NONE" name="">
+      <modelElement href="../CourseCatalogHW1.uml#_pu17cSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFWW8SHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFWW8CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qFT6sSHtEeyY0fyl_SdROA" aggregationKind="NONE" name="courseList" navigable="true">
+      <modelElement href="../CourseCatalogHW1.uml#_puCDISHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFW-ACHtEeyY0fyl_SdROA" label="-"/>
+      <cardinality xmi:id="_qFWW8iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qGF90CHtEeyY0fyl_SdROA" sourceAnchor="360.0,0.0" targetAnchor="250.0,220.0" superClass="_qGJoMCHtEeyY0fyl_SdROA" subClass="_qFYzMCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ptFn8CHtEeyY0fyl_SdROA"/>
+    <bendpoints xmi:id="_qhlnACHtEeyY0fyl_SdROA" sourceY="-27" targetX="683" targetY="28"/>
+    <bendpoints xmi:id="_qhm1ICHtEeyY0fyl_SdROA" sourceX="-683" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qGTZMCHtEeyY0fyl_SdROA" sourceAnchor="420.0,0.0" targetAnchor="250.0,220.0" superClass="_qGJoMCHtEeyY0fyl_SdROA" subClass="_qGY4wCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ptTqYCHtEeyY0fyl_SdROA"/>
+    <bendpoints xmi:id="_qhm1ISHtEeyY0fyl_SdROA" sourceY="-307" targetX="-178" targetY="28"/>
+    <bendpoints xmi:id="_qhncMCHtEeyY0fyl_SdROA" sourceX="178" sourceY="-307" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_qG_VsCHtEeyY0fyl_SdROA" sourceAnchor="333.0,0.0" targetAnchor="403.0,0.0" dashed="true" superClass="_qHDnICHtEeyY0fyl_SdROA" subClass="_qGY4wCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ptTDUCHtEeyY0fyl_SdROA"/>
+    <bendpoints xmi:id="_qhncMSHtEeyY0fyl_SdROA" sourceY="-570" targetX="-3254" targetY="-296"/>
+    <bendpoints xmi:id="_qhncMiHtEeyY0fyl_SdROA" sourceX="3254" sourceY="-570" targetY="-296"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qHcosCHtEeyY0fyl_SdROA" source="_qHoO4CHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pu3JkCHtEeyY0fyl_SdROA"/>
+    <stereotypes xmi:id="_qHiIQCHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_pu3woCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qHg6ICHtEeyY0fyl_SdROA" text=""/>
+    <sourceRole xmi:id="_qHhhMCHtEeyY0fyl_SdROA" aggregationKind="NONE" name="">
+      <modelElement href="../CourseCatalogHW1.uml#_pu3JkSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHkkgCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHj9cCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qHhhMSHtEeyY0fyl_SdROA" aggregationKind="NONE" name="studentList" navigable="true">
+      <modelElement href="../CourseCatalogHW1.uml#_puGUkCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHlLkCHtEeyY0fyl_SdROA" label="#"/>
+      <cardinality xmi:id="_qHkkgSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_qHdPwCHtEeyY0fyl_SdROA" source="_qHoO4CHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pu3woSHtEeyY0fyl_SdROA"/>
+    <stereotypes xmi:id="_qHiIRCHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_pu4XsCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_qHiIQSHtEeyY0fyl_SdROA" text=""/>
+    <sourceRole xmi:id="_qHiIQiHtEeyY0fyl_SdROA" aggregationKind="NONE" name="">
+      <modelElement href="../CourseCatalogHW1.uml#_pu3woiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHlyoCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHlLkyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_qHiIQyHtEeyY0fyl_SdROA" aggregationKind="NONE" name="courseList" navigable="true">
+      <modelElement href="../CourseCatalogHW1.uml#_puG7oiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHlyoiHtEeyY0fyl_SdROA" label="#"/>
+      <cardinality xmi:id="_qHlyoSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qCepICHtEeyY0fyl_SdROA" name="Course" associationsOut="_qCcz8CHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qCepISHtEeyY0fyl_SdROA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qCepIiHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qCfQMCHtEeyY0fyl_SdROA" name="courseName">
+      <modelElement href="../CourseCatalogHW1.uml#_puIw0CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQMSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQMiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQMyHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQNCHtEeyY0fyl_SdROA" name="ID">
+      <modelElement href="../CourseCatalogHW1.uml#_puIw0SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQNSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQNiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQNyHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQOCHtEeyY0fyl_SdROA" name="maxStudents">
+      <modelElement href="../CourseCatalogHW1.uml#_puIw0iHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQOSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQOiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQOyHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQPCHtEeyY0fyl_SdROA" name="registered">
+      <modelElement href="../CourseCatalogHW1.uml#_puJX4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQPSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQPiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQPyHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQQCHtEeyY0fyl_SdROA" name="nameRoster">
+      <modelElement href="../CourseCatalogHW1.uml#_puJX4SHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qCfQQSHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_puJ-8CHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qCfQQiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQQyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQRCHtEeyY0fyl_SdROA" name="ArrayList">
+        <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQRSHtEeyY0fyl_SdROA" name="instructor">
+      <modelElement href="../CourseCatalogHW1.uml#_puKmACHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQRiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQRyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQSCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQSSHtEeyY0fyl_SdROA" name="sectionNum">
+      <modelElement href="../CourseCatalogHW1.uml#_puKmASHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQSiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQSyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQTCHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qCfQTSHtEeyY0fyl_SdROA" name="location">
+      <modelElement href="../CourseCatalogHW1.uml#_puKmAiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQTiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQTyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qCfQUCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qCfQUSHtEeyY0fyl_SdROA" name="Course">
+      <modelElement href="../CourseCatalogHW1.uml#_ppwnICHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qCfQUiHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qCfQUyHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qCfQVCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qCfQVSHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ppxOMiHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qCfQViHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qCfQVyHtEeyY0fyl_SdROA" name="Course">
+      <modelElement href="../CourseCatalogHW1.uml#_ppzqcCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qCfQWCHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qCfQWSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQWiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qCfQWyHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pp1foCHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qCfQXCHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qCfQXSHtEeyY0fyl_SdROA" name="courseName">
+        <modelElement href="../CourseCatalogHW1.uml#_pp0RgCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQXiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQXyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQYCHtEeyY0fyl_SdROA" name="ID">
+        <modelElement href="../CourseCatalogHW1.uml#_pp0RgSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQYSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQYiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQYyHtEeyY0fyl_SdROA" name="maxStudents">
+        <modelElement href="../CourseCatalogHW1.uml#_pp0RgiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQZCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQZSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQZiHtEeyY0fyl_SdROA" name="registered">
+        <modelElement href="../CourseCatalogHW1.uml#_pp0RgyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQZyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQaCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQaSHtEeyY0fyl_SdROA" name="nameRoster">
+        <modelElement href="../CourseCatalogHW1.uml#_pp0RhCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQaiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQayHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQbCHtEeyY0fyl_SdROA" name="instructor">
+        <modelElement href="../CourseCatalogHW1.uml#_pp04kCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQbSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQbiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQbyHtEeyY0fyl_SdROA" name="sectionNum">
+        <modelElement href="../CourseCatalogHW1.uml#_pp04kSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQcCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQcSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQciHtEeyY0fyl_SdROA" name="location">
+        <modelElement href="../CourseCatalogHW1.uml#_pp04kiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQcyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQdCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qCfQdSHtEeyY0fyl_SdROA" name="addToRoster">
+      <modelElement href="../CourseCatalogHW1.uml#_pp2GsCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQdiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQdyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qCfQeCHtEeyY0fyl_SdROA" name="newName">
+        <modelElement href="../CourseCatalogHW1.uml#_pp2GsSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQeSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQeiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qCfQeyHtEeyY0fyl_SdROA" name="removeFromRoster">
+      <modelElement href="../CourseCatalogHW1.uml#_pp2twCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQfCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQfSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qCfQfiHtEeyY0fyl_SdROA" name="oldName">
+        <modelElement href="../CourseCatalogHW1.uml#_pp3U0CHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQfyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQgCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qCfQgSHtEeyY0fyl_SdROA" name="viewPrint">
+      <modelElement href="../CourseCatalogHW1.uml#_pp3U0SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQgiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQgyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qCfQhCHtEeyY0fyl_SdROA" name="fullViewPrint">
+      <modelElement href="../CourseCatalogHW1.uml#_pp374CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQhSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQhiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qCfQhyHtEeyY0fyl_SdROA" name="getPrint">
+      <modelElement href="../CourseCatalogHW1.uml#_pp4i8CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qCfQiCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQiSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qCfQiiHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pp4i8SHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qCfQiyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qCfQjCHtEeyY0fyl_SdROA" name="compareTo">
+      <modelElement href="../CourseCatalogHW1.uml#_ptPY8CHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qCfQjSHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_ptQAACHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qCfQjiHtEeyY0fyl_SdROA" name="Annotations">
+        <modelElement href="../CourseCatalogHW1.uml#_ptQnECHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qCfQjyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQkCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qCfQkSHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptPY8iHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qCfQkiHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qCfQkyHtEeyY0fyl_SdROA" name="comparecour">
+        <modelElement href="../CourseCatalogHW1.uml#_ptPY8SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQlCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQlSHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qCfQliHtEeyY0fyl_SdROA" name="Course">
+      <modelElement href="../CourseCatalogHW1.uml#_ptwWUCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qCfQlyHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qCfQmCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qCfQmSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qCfQmiHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9ZyHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qCfQmyHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qCfQnCHtEeyY0fyl_SdROA" name="courseName">
+        <modelElement href="../CourseCatalogHW1.uml#_ptwWUSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQnSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQniHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQnyHtEeyY0fyl_SdROA" name="ID">
+        <modelElement href="../CourseCatalogHW1.uml#_ptwWUiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQoCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQoSHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQoiHtEeyY0fyl_SdROA" name="maxStudents">
+        <modelElement href="../CourseCatalogHW1.uml#_ptwWUyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQoyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQpCHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQpSHtEeyY0fyl_SdROA" name="registered">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9YCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQpiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQpyHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQqCHtEeyY0fyl_SdROA" name="nameRoster">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9YSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQqSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQqiHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQqyHtEeyY0fyl_SdROA" name="instructor">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9YiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQrCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQrSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQriHtEeyY0fyl_SdROA" name="sectionNum">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9YyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQryHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQsCHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qCfQsSHtEeyY0fyl_SdROA" name="location">
+        <modelElement href="../CourseCatalogHW1.uml#_ptw9ZCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qCfQsiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qCfQsyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qExvMCHtEeyY0fyl_SdROA" name="fileWriterTest">
+    <modelElement href="../CourseCatalogHW1.uml#_poajUCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qExvMSHtEeyY0fyl_SdROA" position="1448.0,215.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qExvMiHtEeyY0fyl_SdROA" label="+"/>
+    <operations xmi:id="_qExvMyHtEeyY0fyl_SdROA" name="main" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pohRASHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qExvNCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qExvNSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qExvNiHtEeyY0fyl_SdROA" name="args">
+        <modelElement href="../CourseCatalogHW1.uml#_poh4ECHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qExvNyHtEeyY0fyl_SdROA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_qExvOCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_qE65ICHtEeyY0fyl_SdROA" name="Students" associationsOut="_qE2AoCHtEeyY0fyl_SdROA" subclassedBy="_qFIUgCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_po32UCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qE65ISHtEeyY0fyl_SdROA" position="-372.0,-430.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qE65IiHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qE65IyHtEeyY0fyl_SdROA" name="myCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_po4dYCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qE65JCHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_po6SkCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qE65JSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE65JiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qE65JyHtEeyY0fyl_SdROA" name="ArrayList">
+        <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qE65KCHtEeyY0fyl_SdROA" name="deleteCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_po7gsCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE65KSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE65KiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qE65KyHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_po7gsSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qE65LCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qE65LSHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qE65LiHtEeyY0fyl_SdROA" name="addToCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptAvcCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE65LyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE65MCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qE65MSHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptBWgCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qE65MiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qE65MyHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qE65NCHtEeyY0fyl_SdROA" name="addToCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptB9kCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE65NSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE65NiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qE65NyHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptB9kSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qE65OCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qE65OSHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qE65OiHtEeyY0fyl_SdROA" name="index">
+        <modelElement href="../CourseCatalogHW1.uml#_ptB9kiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qE65OyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qE65PCHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qE65PSHtEeyY0fyl_SdROA" name="deleteCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_ptCkoCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qE65PiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qE65PyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qE65QCHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptCkoSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qE65QSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qE65QiHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qFYzMCHtEeyY0fyl_SdROA" name="Student" associationsOut="_qFL-4CHtEeyY0fyl_SdROA" generalizations="_qFIUgCHtEeyY0fyl_SdROA _qGF90CHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qFYzMSHtEeyY0fyl_SdROA" position="-805.0,-156.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qFYzMiHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qFYzMyHtEeyY0fyl_SdROA" name="courseList">
+      <modelElement href="../CourseCatalogHW1.uml#_puCDISHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qFYzNCHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_puCqMCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qFYzNSHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puDRQCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qFYzNiHtEeyY0fyl_SdROA" label="-"/>
+      <cardinality xmi:id="_qFYzNyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qFYzOCHtEeyY0fyl_SdROA" name="ArrayList">
+        <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qFYzOSHtEeyY0fyl_SdROA" name="username">
+      <modelElement href="../CourseCatalogHW1.uml#_puDRQSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzOiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzOyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qFYzPCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qFYzPSHtEeyY0fyl_SdROA" name="password">
+      <modelElement href="../CourseCatalogHW1.uml#_puD4UCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzPiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzPyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qFYzQCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qFYzQSHtEeyY0fyl_SdROA" name="firstName">
+      <modelElement href="../CourseCatalogHW1.uml#_puEfYCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzQiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzQyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qFYzRCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qFYzRSHtEeyY0fyl_SdROA" name="lastName">
+      <modelElement href="../CourseCatalogHW1.uml#_puFGcCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzRiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzRyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qFYzSCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qFYzSSHtEeyY0fyl_SdROA" name="Student">
+      <modelElement href="../CourseCatalogHW1.uml#_ppC1cCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qFYzSiHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qFYzSyHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qFYzTCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qFYzTSHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ppDcgCHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qFYzTiHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qFYzTyHtEeyY0fyl_SdROA" name="Student">
+      <modelElement href="../CourseCatalogHW1.uml#_ppEDkCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qFYzUCHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qFYzUSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzUiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qFYzUyHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ppFRsSHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qFYzVCHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qFYzVSHtEeyY0fyl_SdROA" name="u">
+        <modelElement href="../CourseCatalogHW1.uml#_ppEqoCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzViHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzVyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzWCHtEeyY0fyl_SdROA" name="p">
+        <modelElement href="../CourseCatalogHW1.uml#_ppEqoSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzWSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzWiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzWyHtEeyY0fyl_SdROA" name="first">
+        <modelElement href="../CourseCatalogHW1.uml#_ppEqoiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzXCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzXSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzXiHtEeyY0fyl_SdROA" name="last">
+        <modelElement href="../CourseCatalogHW1.uml#_ppEqoyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzXyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzYCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzYSHtEeyY0fyl_SdROA" name="getMyCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ppGf0CHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qFYzYiHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_ppHt8CHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qFYzYyHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_ppIVACHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qFYzZCHtEeyY0fyl_SdROA" name="Annotations">
+        <modelElement href="../CourseCatalogHW1.uml#_ppKKMCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qFYzZSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzZiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qFYzZyHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptl-QSHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qFYzaCHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qFYzaSHtEeyY0fyl_SdROA" name="deleteCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_ppLYUCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzaiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzayHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qFYzbCHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ppLYUSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzbSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzbiHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzbyHtEeyY0fyl_SdROA" name="addToCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptDywCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzcCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzcSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qFYzciHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptDywSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzcyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzdCHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzdSHtEeyY0fyl_SdROA" name="addToCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptEZ0CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzdiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzdyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qFYzeCHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptEZ0SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzeSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzeiHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzeyHtEeyY0fyl_SdROA" name="index">
+        <modelElement href="../CourseCatalogHW1.uml#_ptEZ0iHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzfCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzfSHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzfiHtEeyY0fyl_SdROA" name="deleteCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_ptFA4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzfyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzgCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qFYzgSHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptFA4SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzgiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzgyHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzhCHtEeyY0fyl_SdROA" name="Student">
+      <modelElement href="../CourseCatalogHW1.uml#_ptkJECHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qFYzhSHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qFYzhiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzhyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qFYziCHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkwJiHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qFYziSHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qFYziiHtEeyY0fyl_SdROA" name="u">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkJESHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYziyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzjCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzjSHtEeyY0fyl_SdROA" name="p">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkwICHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzjiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzjyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzkCHtEeyY0fyl_SdROA" name="first">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkwISHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzkSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzkiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzkyHtEeyY0fyl_SdROA" name="last">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkwIiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzlCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzlSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qFYzliHtEeyY0fyl_SdROA" name="courseList">
+        <modelElement href="../CourseCatalogHW1.uml#_ptkwIyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYzlyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzmCHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qFYzmSHtEeyY0fyl_SdROA" name="setMyCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptl-QiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qFYzmiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qFYzmyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qFYznCHtEeyY0fyl_SdROA" name="course">
+        <modelElement href="../CourseCatalogHW1.uml#_ptmlUCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qFYznSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qFYzniHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qGJoMCHtEeyY0fyl_SdROA" name="User" abstractClass="true" subclassedBy="_qGF90CHtEeyY0fyl_SdROA _qGTZMCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_policCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qGKPQCHtEeyY0fyl_SdROA" position="-1378.0,-431.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qGKPQSHtEeyY0fyl_SdROA" label="~"/>
+    <attributes xmi:id="_qGKPQiHtEeyY0fyl_SdROA" name="username">
+      <modelElement href="../CourseCatalogHW1.uml#_pt_m4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGKPQyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGKPRCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGKPRSHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qGKPRiHtEeyY0fyl_SdROA" name="password">
+      <modelElement href="../CourseCatalogHW1.uml#_pt_m4SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGKPRyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGKPSCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGKPSSHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qGKPSiHtEeyY0fyl_SdROA" name="firstName">
+      <modelElement href="../CourseCatalogHW1.uml#_puAN8CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGKPSyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGKPTCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGKPTSHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qGKPTiHtEeyY0fyl_SdROA" name="lastName">
+      <modelElement href="../CourseCatalogHW1.uml#_puAN8SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGKPTyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGKPUCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGKPUSHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qGKPUiHtEeyY0fyl_SdROA" name="User">
+      <modelElement href="../CourseCatalogHW1.uml#_pon-sCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qGKPUyHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qGKPVCHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qGKPVSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qGKPViHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_poolwiHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qGKPVyHtEeyY0fyl_SdROA" name="User">
+          <modelElement href="../CourseCatalogHW1.uml#_policCHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qGKPWCHtEeyY0fyl_SdROA" name="User">
+      <modelElement href="../CourseCatalogHW1.uml#_popz4CHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qGKPWSHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qGKPWiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGKPWyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qGKPXCHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_porCACHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qGKPXSHtEeyY0fyl_SdROA" name="User">
+          <modelElement href="../CourseCatalogHW1.uml#_policCHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qGKPXiHtEeyY0fyl_SdROA" name="u">
+        <modelElement href="../CourseCatalogHW1.uml#_popz4SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGKPXyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGKPYCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGKPYSHtEeyY0fyl_SdROA" name="p">
+        <modelElement href="../CourseCatalogHW1.uml#_poqa8CHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGKPYiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGKPYyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGKPZCHtEeyY0fyl_SdROA" name="first">
+        <modelElement href="../CourseCatalogHW1.uml#_poqa8SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGKPZSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGKPZiHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGKPZyHtEeyY0fyl_SdROA" name="last">
+        <modelElement href="../CourseCatalogHW1.uml#_poqa8iHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGKPaCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGKPaSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qGY4wCHtEeyY0fyl_SdROA" name="Admin" generalizations="_qGTZMCHtEeyY0fyl_SdROA _qG_VsCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pqEwMCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qGY4wSHtEeyY0fyl_SdROA" position="-1726.0,124.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qGY4wiHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qGY4wyHtEeyY0fyl_SdROA" defaultValue="&quot;Admin&quot;" name="username">
+      <modelElement href="../CourseCatalogHW1.uml#_puLNECHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qGY4xCHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puL0ICHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qGY4xSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGY4xiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGY4xyHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qGY4yCHtEeyY0fyl_SdROA" defaultValue="&quot;Admin001&quot;" name="password">
+      <modelElement href="../CourseCatalogHW1.uml#_puNCQCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qGY4ySHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puNCQSHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qGY4yiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGY4yyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qGY4zCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qGY4zSHtEeyY0fyl_SdROA" name="Admin">
+      <modelElement href="../CourseCatalogHW1.uml#_pqGlYCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qGY4ziHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qGY4zyHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qGY40CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qGY40SHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pqHMciHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qGY40iHtEeyY0fyl_SdROA" name="Admin">
+          <modelElement href="../CourseCatalogHW1.uml#_pqEwMCHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qGY40yHtEeyY0fyl_SdROA" name="showStudentCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_pt1O0CHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qGY41CHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_pt114yHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qGY41SHtEeyY0fyl_SdROA" name="Annotations">
+        <modelElement href="../CourseCatalogHW1.uml#_pt2c8CHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qGY41iHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGY41yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGY42CHtEeyY0fyl_SdROA" name="firstName">
+        <modelElement href="../CourseCatalogHW1.uml#_pt1O0SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGY42SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGY42iHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGY42yHtEeyY0fyl_SdROA" name="lastName">
+        <modelElement href="../CourseCatalogHW1.uml#_pt114CHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGY43CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGY43SHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGY43iHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt114SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGY43yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGY44CHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGY44SHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt114iHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGY44iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGY44yHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qGiCsCHtEeyY0fyl_SdROA" name="readerTest">
+    <modelElement href="../CourseCatalogHW1.uml#_pqKPwCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qGiCsSHtEeyY0fyl_SdROA" position="-2027.0,215.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qGiCsiHtEeyY0fyl_SdROA" label="+"/>
+    <operations xmi:id="_qGiCsyHtEeyY0fyl_SdROA" name="main" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pqLd4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGiCtCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGiCtSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGiCtiHtEeyY0fyl_SdROA" name="args">
+        <modelElement href="../CourseCatalogHW1.uml#_pqLd4SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGiCtyHtEeyY0fyl_SdROA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_qGiCuCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qGtB0CHtEeyY0fyl_SdROA" name="workflow">
+    <modelElement href="../CourseCatalogHW1.uml#_pqXEECHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qGtB0SHtEeyY0fyl_SdROA" position="-2742.0,-149.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qGtB0iHtEeyY0fyl_SdROA" label="+"/>
+    <operations xmi:id="_qGtB0yHtEeyY0fyl_SdROA" name="main" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pqYSMCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB1CHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB1SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB1iHtEeyY0fyl_SdROA" name="args">
+        <modelElement href="../CourseCatalogHW1.uml#_pqYSMSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB1yHtEeyY0fyl_SdROA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_qGtB2CHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtB2SHtEeyY0fyl_SdROA" name="serialize" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_ptbmMCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB2iHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB2yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB3CHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_ptbmMSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB3SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB3iHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtB3yHtEeyY0fyl_SdROA" name="deserialize" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_ptbmMiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB4CHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB4SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB4iHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_ptbmMyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB4yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB5CHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtB5SHtEeyY0fyl_SdROA" name="studentVadmin" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt3rECHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB5iHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB5yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB6CHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt3rESHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB6SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB6iHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtB6yHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt3rEiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB7CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB7SHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtB7iHtEeyY0fyl_SdROA" name="studentLogin" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt4SICHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB7yHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB8CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB8SHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt4SISHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB8iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB8yHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtB9CHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt4SIiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB9SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB9iHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtB9yHtEeyY0fyl_SdROA" name="studentMenu" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt45MCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtB-CHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtB-SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtB-iHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt45MSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB-yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB_CHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtB_SHtEeyY0fyl_SdROA" name="kid">
+        <modelElement href="../CourseCatalogHW1.uml#_pt45MiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtB_iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtB_yHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCACHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt45MyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCASHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCAiHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCAyHtEeyY0fyl_SdROA" name="adminMenu" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt5gQCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCBCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCBSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCBiHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt5gQSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCByHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCCCHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCCSHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt5gQiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCCiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCCyHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCDCHtEeyY0fyl_SdROA" name="registerTheKid" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt5gQyHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCDSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCDiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCDyHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt5gRCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCECHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCESHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCEiHtEeyY0fyl_SdROA" name="kid">
+        <modelElement href="../CourseCatalogHW1.uml#_pt5gRSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCEyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCFCHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCFSHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6HUCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCFiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCFyHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCGCHtEeyY0fyl_SdROA" name="withdrawTheCourse" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt6HUSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCGSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCGiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCGyHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6HUiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCHCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCHSHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCHiHtEeyY0fyl_SdROA" name="kid">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6HUyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCHyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCICHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCISHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6uYCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCIiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCIyHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCJCHtEeyY0fyl_SdROA" name="createCourse" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt6uYSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCJSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCJiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCJyHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6uYiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCKCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCKSHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCKiHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt6uYyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCKyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCLCHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCLSHtEeyY0fyl_SdROA" name="deleteCourse" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt7VcCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCLiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCLyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCMCHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt7VcSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCMSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCMiHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCMyHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt78gCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCNCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCNSHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCNiHtEeyY0fyl_SdROA" name="editCourse" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt78gSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCNyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCOCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCOSHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt78giHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCOiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCOyHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCPCHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_pt78gyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCPSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCPiHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCPyHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt78hCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCQCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCQSHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCQiHtEeyY0fyl_SdROA" name="registration" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt8jkCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCQyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCRCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCRSHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt8jkSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCRiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCRyHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCSCHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt8jkiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCSSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCSiHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qGtCSyHtEeyY0fyl_SdROA" name="writtenList" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pt9KoCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qGtCTCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qGtCTSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qGtCTiHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt9KoSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCTyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCUCHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qGtCUSHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt9KoiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qGtCUiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qGtCUyHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_qHDnICHtEeyY0fyl_SdROA" name="Admins" subclassedBy="_qG_VsCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_pp_3sCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qHDnISHtEeyY0fyl_SdROA" position="1458.0,-150.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qHDnIiHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qHDnIyHtEeyY0fyl_SdROA" name="username">
+      <modelElement href="../CourseCatalogHW1.uml#_pqBs4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHDnJCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHDnJSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHDnJiHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHDnJyHtEeyY0fyl_SdROA" name="password">
+      <modelElement href="../CourseCatalogHW1.uml#_pqCT8CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHDnKCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHDnKSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHDnKiHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHDnKyHtEeyY0fyl_SdROA" name="firstName">
+      <modelElement href="../CourseCatalogHW1.uml#_pqC7ACHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHDnLCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHDnLSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHDnLiHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHDnLyHtEeyY0fyl_SdROA" name="lastName">
+      <modelElement href="../CourseCatalogHW1.uml#_pqC7ASHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHDnMCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHDnMSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHDnMiHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qHDnMyHtEeyY0fyl_SdROA" name="showStudentCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_ptzZoCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHDnNCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHDnNSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHDnNiHtEeyY0fyl_SdROA" name="firstName">
+        <modelElement href="../CourseCatalogHW1.uml#_pt0AsCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHDnNyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHDnOCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHDnOSHtEeyY0fyl_SdROA" name="lastName">
+        <modelElement href="../CourseCatalogHW1.uml#_pt0AsSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHDnOiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHDnOyHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHDnPCHtEeyY0fyl_SdROA" name="Storage">
+        <modelElement href="../CourseCatalogHW1.uml#_pt0AsiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHDnPSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHDnPiHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHDnPyHtEeyY0fyl_SdROA" name="scan">
+        <modelElement href="../CourseCatalogHW1.uml#_pt0AsyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHDnQCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHDnQSHtEeyY0fyl_SdROA" name="Scanner">
+          <modelElement href="../CourseCatalogHW1.uml#_ps6BwCHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qHMKACHtEeyY0fyl_SdROA" name="serialization">
+    <modelElement href="../CourseCatalogHW1.uml#_pqMsACHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qHMKASHtEeyY0fyl_SdROA" position="1772.0,215.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qHMKAiHtEeyY0fyl_SdROA" label="+"/>
+    <operations xmi:id="_qHMKAyHtEeyY0fyl_SdROA" name="main" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pqTZsCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHMKBCHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_pqUAwCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHMKBSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHMKBiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHMKByHtEeyY0fyl_SdROA" name="args">
+        <modelElement href="../CourseCatalogHW1.uml#_pqTZsSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHMKCCHtEeyY0fyl_SdROA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_qHMKCSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qHTewCHtEeyY0fyl_SdROA" name="Employee">
+    <modelElement href="../CourseCatalogHW1.uml#_pqN6ICHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qHTewSHtEeyY0fyl_SdROA" position="-3422.0,13.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_qHTewiHtEeyY0fyl_SdROA" keyword="sameFile"/>
+    <visibility xmi:id="_qHTewyHtEeyY0fyl_SdROA" label="~"/>
+    <attributes xmi:id="_qHTexCHtEeyY0fyl_SdROA" name="firstName">
+      <modelElement href="../CourseCatalogHW1.uml#_puOQYCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHTexSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHTexiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHTexyHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHTeyCHtEeyY0fyl_SdROA" name="lastName">
+      <modelElement href="../CourseCatalogHW1.uml#_puO3cCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHTeySHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHTeyiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHTeyyHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHTezCHtEeyY0fyl_SdROA" name="teamLeader">
+      <modelElement href="../CourseCatalogHW1.uml#_puO3cSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHTezSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHTeziHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHTezyHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHTe0CHtEeyY0fyl_SdROA" name="salary">
+      <modelElement href="../CourseCatalogHW1.uml#_puO3ciHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHTe0SHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHTe0iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHTe0yHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHTe1CHtEeyY0fyl_SdROA" name="SSN">
+      <modelElement href="../CourseCatalogHW1.uml#_puPegCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHTe1SHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHTe1iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHTe1yHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qHTe2CHtEeyY0fyl_SdROA" name="Employee">
+      <modelElement href="../CourseCatalogHW1.uml#_pqPIQCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qHTe2SHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qHTe2iHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qHTe2yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHTe3CHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pqPvUiHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHTe3SHtEeyY0fyl_SdROA" name="Employee">
+          <modelElement href="../CourseCatalogHW1.uml#_pqN6ICHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHTe3iHtEeyY0fyl_SdROA" name="Employee">
+      <modelElement href="../CourseCatalogHW1.uml#_pqQWYCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qHTe3yHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qHTe4CHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qHTe4SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHTe4iHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pqRkhCHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHTe4yHtEeyY0fyl_SdROA" name="Employee">
+          <modelElement href="../CourseCatalogHW1.uml#_pqN6ICHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qHTe5CHtEeyY0fyl_SdROA" name="f">
+        <modelElement href="../CourseCatalogHW1.uml#_pqQ9cCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHTe5SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHTe5iHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHTe5yHtEeyY0fyl_SdROA" name="l">
+        <modelElement href="../CourseCatalogHW1.uml#_pqQ9cSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHTe6CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHTe6SHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHTe6iHtEeyY0fyl_SdROA" name="tl">
+        <modelElement href="../CourseCatalogHW1.uml#_pqQ9ciHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHTe6yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHTe7CHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHTe7SHtEeyY0fyl_SdROA" name="s">
+        <modelElement href="../CourseCatalogHW1.uml#_pqRkgCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHTe7iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHTe7yHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHTe8CHtEeyY0fyl_SdROA" name="ssn">
+        <modelElement href="../CourseCatalogHW1.uml#_pqRkgSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHTe8SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHTe8iHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qHoO4CHtEeyY0fyl_SdROA" name="StoredLists" associationsOut="_qHcosCHtEeyY0fyl_SdROA _qHdPwCHtEeyY0fyl_SdROA">
+    <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qHoO4SHtEeyY0fyl_SdROA" position="-4190.0,-296.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qHoO4iHtEeyY0fyl_SdROA" label="+"/>
+    <attributes xmi:id="_qHoO4yHtEeyY0fyl_SdROA" name="adminActivated">
+      <modelElement href="../CourseCatalogHW1.uml#_puFtgCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHoO5CHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puFtgSHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHoO5SHtEeyY0fyl_SdROA" label="#"/>
+      <cardinality xmi:id="_qHoO5iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHoO5yHtEeyY0fyl_SdROA" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHoO6CHtEeyY0fyl_SdROA" name="studentList">
+      <modelElement href="../CourseCatalogHW1.uml#_puGUkCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHoO6SHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_puG7oCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qHoO6iHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puG7oSHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHoO6yHtEeyY0fyl_SdROA" label="#"/>
+      <cardinality xmi:id="_qHoO7CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHoO7SHtEeyY0fyl_SdROA" name="ArrayList">
+        <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qHoO7iHtEeyY0fyl_SdROA" name="courseList">
+      <modelElement href="../CourseCatalogHW1.uml#_puG7oiHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHoO7yHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_puHisCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qHoO8CHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puIJwCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHoO8SHtEeyY0fyl_SdROA" label="#"/>
+      <cardinality xmi:id="_qHoO8iHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qHoO8yHtEeyY0fyl_SdROA" name="ArrayList">
+        <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qHoO9CHtEeyY0fyl_SdROA" name="StoredLists">
+      <modelElement href="../CourseCatalogHW1.uml#_ppbP8CHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qHoO9SHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qHoO9iHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qHo18CHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo18SHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ppbP8yHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo18iHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHo18yHtEeyY0fyl_SdROA" name="getAdminActivated">
+      <modelElement href="../CourseCatalogHW1.uml#_ppceECHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo19CHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo19SHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo19iHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ppdFICHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo19yHtEeyY0fyl_SdROA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHo1-CHtEeyY0fyl_SdROA" name="getStudentList">
+      <modelElement href="../CourseCatalogHW1.uml#_ppdsMCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHo1-SHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_ppfhYCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHo1-iHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo1-yHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo1_CHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptqPsSHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo1_SHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHo1_iHtEeyY0fyl_SdROA" name="getCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ppgIcCHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qHo1_yHtEeyY0fyl_SdROA" name="Generics">
+        <modelElement href="../CourseCatalogHW1.uml#_pph9oCHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qHo2ACHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2ASHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo2AiHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptq2wCHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo2AyHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHo2BCHtEeyY0fyl_SdROA" name="activateAdmin">
+      <modelElement href="../CourseCatalogHW1.uml#_ppjLwCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2BSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2BiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qHo2ByHtEeyY0fyl_SdROA" name="viewAllCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_ppjy0CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2CCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2CSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qHo2CiHtEeyY0fyl_SdROA" name="viewAvailableCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_ppkZ4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2CyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2DCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qHo2DSHtEeyY0fyl_SdROA" name="viewAllFullCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_pplA8CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2DiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2DyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qHo2ECHtEeyY0fyl_SdROA" name="getAllFullCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_pplA8SHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2ESHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2EiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo2EyHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pploACHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo2FCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qHo2FSHtEeyY0fyl_SdROA" name="sortCourses">
+      <modelElement href="../CourseCatalogHW1.uml#_ppmPECHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2FiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2FyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_qHo2GCHtEeyY0fyl_SdROA" name="addCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_ptKgcCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2GSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2GiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHo2GyHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptLHgCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2HCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2HSHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qHo2HiHtEeyY0fyl_SdROA" name="deleteCourse">
+      <modelElement href="../CourseCatalogHW1.uml#_ptLukCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2HyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2ICHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHo2ISHtEeyY0fyl_SdROA" name="c">
+        <modelElement href="../CourseCatalogHW1.uml#_ptLukSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2IiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2IyHtEeyY0fyl_SdROA" name="Course">
+          <modelElement href="../CourseCatalogHW1.uml#_ppuK4CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qHo2JCHtEeyY0fyl_SdROA" name="addStudent">
+      <modelElement href="../CourseCatalogHW1.uml#_ptLukiHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2JSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2JiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHo2JyHtEeyY0fyl_SdROA" name="s">
+        <modelElement href="../CourseCatalogHW1.uml#_ptMVoCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2KCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2KSHtEeyY0fyl_SdROA" name="Student">
+          <modelElement href="../CourseCatalogHW1.uml#_po-kACHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qHo2KiHtEeyY0fyl_SdROA" name="StoredLists">
+      <modelElement href="../CourseCatalogHW1.uml#_ptoagCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qHo2KyHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qHo2LCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2LSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qHo2LiHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_ptpBkSHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qHo2LyHtEeyY0fyl_SdROA" name="StoredLists">
+          <modelElement href="../CourseCatalogHW1.uml#_ppSGACHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qHo2MCHtEeyY0fyl_SdROA" name="active">
+        <modelElement href="../CourseCatalogHW1.uml#_ptoagSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2MSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2MiHtEeyY0fyl_SdROA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHo2MyHtEeyY0fyl_SdROA" name="list">
+        <modelElement href="../CourseCatalogHW1.uml#_ptoagiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2NCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2NSHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qHo2NiHtEeyY0fyl_SdROA" name="courses">
+        <modelElement href="../CourseCatalogHW1.uml#_ptoagyHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2NyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2OCHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qHo2OSHtEeyY0fyl_SdROA" name="setStudentList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptq2wSHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2OiHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2OyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHo2PCHtEeyY0fyl_SdROA" name="students">
+        <modelElement href="../CourseCatalogHW1.uml#_ptq2wiHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2PSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2PiHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qHo2PyHtEeyY0fyl_SdROA" name="setCourseList">
+      <modelElement href="../CourseCatalogHW1.uml#_ptsE4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qHo2QCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qHo2QSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qHo2QiHtEeyY0fyl_SdROA" name="courses">
+        <modelElement href="../CourseCatalogHW1.uml#_ptsE4SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qHo2QyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qHo2RCHtEeyY0fyl_SdROA" name="ArrayList">
+          <modelElement href="../CourseCatalogHW1.uml#_ps728CHtEeyY0fyl_SdROA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qIApYCHtEeyY0fyl_SdROA" name="Tokenizer">
+    <modelElement href="../CourseCatalogHW1.uml#_pos3MCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qIApYSHtEeyY0fyl_SdROA" position="2093.0,215.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qIApYiHtEeyY0fyl_SdROA" label="+"/>
+    <operations xmi:id="_qIApYyHtEeyY0fyl_SdROA" name="main" staticOperation="true">
+      <modelElement href="../CourseCatalogHW1.uml#_pozk4CHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qIApZCHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qIApZSHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_qIBQcCHtEeyY0fyl_SdROA" name="args">
+        <modelElement href="../CourseCatalogHW1.uml#_pozk4SHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qIBQcSHtEeyY0fyl_SdROA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_qIBQciHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qIHXECHtEeyY0fyl_SdROA" name="person">
+    <modelElement href="../CourseCatalogHW1.uml#_pouFUCHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qIHXESHtEeyY0fyl_SdROA" position="2428.0,41.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_qIHXEiHtEeyY0fyl_SdROA" keyword="sameFile"/>
+    <visibility xmi:id="_qIHXEyHtEeyY0fyl_SdROA" label="~"/>
+    <attributes xmi:id="_qIHXFCHtEeyY0fyl_SdROA" name="firstName">
+      <modelElement href="../CourseCatalogHW1.uml#_puA1ACHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qIHXFSHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puA1ASHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qIHXFiHtEeyY0fyl_SdROA" label="-"/>
+      <cardinality xmi:id="_qIHXFyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qIHXGCHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qIHXGSHtEeyY0fyl_SdROA" name="lastName">
+      <modelElement href="../CourseCatalogHW1.uml#_puA1AiHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qIHXGiHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puBcECHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qIHXGyHtEeyY0fyl_SdROA" label="-"/>
+      <cardinality xmi:id="_qIHXHCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qIHXHSHtEeyY0fyl_SdROA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qIHXHiHtEeyY0fyl_SdROA" name="ID">
+      <modelElement href="../CourseCatalogHW1.uml#_puBcESHtEeyY0fyl_SdROA"/>
+      <stereotypes xmi:id="_qIHXHyHtEeyY0fyl_SdROA" name="LegacyStyledElement">
+        <modelElement href="../CourseCatalogHW1.uml#_puCDICHtEeyY0fyl_SdROA"/>
+      </stereotypes>
+      <visibility xmi:id="_qIHXICHtEeyY0fyl_SdROA" label="-"/>
+      <cardinality xmi:id="_qIHXISHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <type xmi:id="_qIHXIiHtEeyY0fyl_SdROA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qIHXIyHtEeyY0fyl_SdROA" name="person">
+      <modelElement href="../CourseCatalogHW1.uml#_povTcCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qIHXJCHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qIHXJSHtEeyY0fyl_SdROA" label="~"/>
+      <cardinality xmi:id="_qIHXJiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qIHXJyHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_pov6giHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qIHXKCHtEeyY0fyl_SdROA" name="person">
+          <modelElement href="../CourseCatalogHW1.uml#_pouFUCHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qIHXKSHtEeyY0fyl_SdROA" name="person">
+      <modelElement href="../CourseCatalogHW1.uml#_poxIoCHtEeyY0fyl_SdROA"/>
+      <keywords xmi:id="_qIHXKiHtEeyY0fyl_SdROA" keyword="create"/>
+      <visibility xmi:id="_qIHXKyHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qIHXLCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qIHXLSHtEeyY0fyl_SdROA">
+        <modelElement href="../CourseCatalogHW1.uml#_poxvtCHtEeyY0fyl_SdROA"/>
+        <type xmi:id="_qIHXLiHtEeyY0fyl_SdROA" name="person">
+          <modelElement href="../CourseCatalogHW1.uml#_pouFUCHtEeyY0fyl_SdROA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qIHXLyHtEeyY0fyl_SdROA" name="fn">
+        <modelElement href="../CourseCatalogHW1.uml#_poxIoSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qIHXMCHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qIHXMSHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qIHXMiHtEeyY0fyl_SdROA" name="ln">
+        <modelElement href="../CourseCatalogHW1.uml#_poxvsCHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qIHXMyHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qIHXNCHtEeyY0fyl_SdROA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qIHXNSHtEeyY0fyl_SdROA" name="id">
+        <modelElement href="../CourseCatalogHW1.uml#_poxvsSHtEeyY0fyl_SdROA"/>
+        <cardinality xmi:id="_qIHXNiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+        <type xmi:id="_qIHXNyHtEeyY0fyl_SdROA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qIHXOCHtEeyY0fyl_SdROA" name="print">
+      <modelElement href="../CourseCatalogHW1.uml#_poyWwCHtEeyY0fyl_SdROA"/>
+      <visibility xmi:id="_qIHXOSHtEeyY0fyl_SdROA" label="+"/>
+      <cardinality xmi:id="_qIHXOiHtEeyY0fyl_SdROA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qIOEwCHtEeyY0fyl_SdROA" name="FileNotFoundException">
+    <modelElement href="../CourseCatalogHW1.uml#_ps-6QSHtEeyY0fyl_SdROA"/>
+    <visualProperties xmi:id="_qIOEwSHtEeyY0fyl_SdROA" position="2907.0,224.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_qIOEwiHtEeyY0fyl_SdROA" name="Reference">
+      <modelElement href="../CourseCatalogHW1.uml#_ps_hUCHtEeyY0fyl_SdROA"/>
+    </stereotypes>
+    <visibility xmi:id="_qIOEwyHtEeyY0fyl_SdROA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
